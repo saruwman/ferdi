@@ -194,18 +194,16 @@ export default @inject('stores', 'actions') @observer class ServiceView extends 
           </Fragment>
         ) : (
           <>
-            {!service.isHibernating ? (
+            {(!service.isHibernating || service.disableHibernation) ? (
               <>
                 {showNavBar && (
                   <WebControlsScreen service={service} />
                 )}
-                {!service.isHibernating && (
-                  <ServiceWebview
-                    service={service}
-                    setWebviewReference={setWebviewReference}
-                    detachService={detachService}
-                  />
-                )}
+                <ServiceWebview
+                  service={service}
+                  setWebviewReference={setWebviewReference}
+                  detachService={detachService}
+                />
                 {service.lostRecipeConnection && (
                   <ConnectionLostBanner
                     name={service.name}

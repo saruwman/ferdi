@@ -423,7 +423,6 @@ export default class ServicesStore extends Store {
       this.all[index].isActive = false;
     });
     service.isActive = true;
-    this._awake({ serviceId: service.id });
     service.lastUsed = Date.now();
 
     // Update list of last used services

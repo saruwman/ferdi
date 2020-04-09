@@ -76,8 +76,6 @@ export default class Service {
 
   @observable isHibernationEnabled = false;
 
-  @observable isHibernating = false;
-
   @observable lastUsed = Date.now(); // timestamp
 
   @observable lastPoll = null;

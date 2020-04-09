@@ -93,9 +93,9 @@ const messages = defineMessages({
     id: 'settings.service.form.isMutedInfo',
     defaultMessage: '!!!When disabled, all notification sounds and audio playback are muted',
   },
-  isHibernationEnabledInfo: {
-    id: 'settings.service.form.isHibernatedEnabledInfo',
-    defaultMessage: '!!!When enabled, a service will be shut down after a period of time to save system resources.',
+  disableHibernationInfo: {
+    id: 'settings.service.form.disableHibernationInfo',
+    defaultMessage: '!!!You currently have hibernation enabled but you can disable hibernation for individual services using this option.',
   },
   headlineNotifications: {
     id: 'settings.service.form.headlineNotifications',
@@ -153,6 +153,7 @@ export default @observer class EditServiceForm extends Component {
     isProxyFeatureEnabled: PropTypes.bool.isRequired,
     isServiceProxyIncludedInCurrentPlan: PropTypes.bool.isRequired,
     isSpellcheckerIncludedInCurrentPlan: PropTypes.bool.isRequired,
+    isHibernationFeatureActive: PropTypes.bool.isRequired,
   };
 
   static defaultProps = {
@@ -218,6 +219,7 @@ export default @observer class EditServiceForm extends Component {
       isProxyFeatureEnabled,
       isServiceProxyIncludedInCurrentPlan,
       isSpellcheckerIncludedInCurrentPlan,
+      isHibernationFeatureActive,
     } = this.props;
     const { intl } = this.context;
 
@@ -365,10 +367,14 @@ export default @observer class EditServiceForm extends Component {
                   <h3>{intl.formatMessage(messages.headlineGeneral)}</h3>
                   <Toggle field={form.$('isDarkModeEnabled')} />
                   <Toggle field={form.$('isEnabled')} />
-                  <Toggle field={form.$('isHibernationEnabled')} />
-                  <p className="settings__help">
-                    {intl.formatMessage(messages.isHibernationEnabledInfo)}
-                  </p>
+                  {isHibernationFeatureActive && (
+                    <>
+                      <Toggle field={form.$('disableHibernation')} />
+                      <p className="settings__help">
+                        {intl.formatMessage(messages.disableHibernationInfo)}
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
               <div className="service-icon">

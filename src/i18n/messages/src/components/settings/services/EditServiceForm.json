@@ -234,12 +234,12 @@
     }
   },
   {
-    "id": "settings.service.form.isHibernatedEnabledInfo",
-    "defaultMessage": "!!!When enabled, a service will be shut down after a period of time to save system resources.",
+    "id": "settings.service.form.disableHibernationInfo",
+    "defaultMessage": "!!!You currently have hibernation enabled but you can disable hibernation for individual services using this option.",
     "file": "src/components/settings/services/EditServiceForm.js",
     "start": {
       "line": 96,
-      "column": 28
+      "column": 26
     },
     "end": {
       "line": 99,
