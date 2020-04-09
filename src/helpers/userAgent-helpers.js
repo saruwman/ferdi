@@ -1,7 +1,9 @@
-
+import { remote } from 'electron';
 import os from 'os';
 import macosVersion from 'macos-version';
 import { isMac, isWindows } from '../environment';
+
+const { app } = remote;
 
 function macOS() {
   const version = macosVersion();
@@ -30,7 +32,12 @@ export default function userAgent(removeChromeVersion = false) {
     platformString = linux();
   }
 
+  let applicationString = '';
+  if (!removeChromeVersion) {
+    applicationString = ` Ferdi/${app.getVersion()} (Electron ${process.versions.electron})`;
+  }
+
   // TODO: Update AppleWebKit and Safari version after electron update
-  return `Mozilla/5.0 (${platformString}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome${!removeChromeVersion ? `/${process.versions.chrome}` : ''} Safari/537.36`;
+  return `Mozilla/5.0 (${platformString}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome${!removeChromeVersion ? `/${process.versions.chrome}` : ''} Safari/537.36${applicationString}`;
   // Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) old-airport-include/1.0.0 Chrome Electron/7.1.7 Safari/537.36
 }

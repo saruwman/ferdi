@@ -200,7 +200,7 @@ export default class Service {
   }
 
   @computed get userAgent() {
-    let ua = window.navigator.userAgent;
+    let ua = userAgent(this.chromelessUserAgent);
     if (typeof this.recipe.overrideUserAgent === 'function') {
       ua = this.recipe.overrideUserAgent();
     }
