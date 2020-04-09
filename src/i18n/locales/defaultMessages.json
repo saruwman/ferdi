@@ -2675,15 +2675,15 @@
         }
       },
       {
-        "defaultMessage": "!!!When enabled, a service will be shut down after a period of time to save system resources.",
+        "defaultMessage": "!!!You currently have hibernation enabled but you can disable hibernation for individual services using this option.",
         "end": {
           "column": 3,
           "line": 99
         },
         "file": "src/components/settings/services/EditServiceForm.js",
-        "id": "settings.service.form.isHibernatedEnabledInfo",
+        "id": "settings.service.form.disableHibernationInfo",
         "start": {
-          "column": 28,
+          "column": 26,
           "line": 96
         }
       },
@@ -4286,15 +4286,15 @@
         }
       },
       {
-        "defaultMessage": "!!!Enable hibernation",
+        "defaultMessage": "!!!Disable hibernation",
         "end": {
           "column": 3,
           "line": 39
         },
         "file": "src/containers/settings/EditServiceScreen.js",
-        "id": "settings.service.form.enableHibernation",
+        "id": "settings.service.form.disableHibernation",
         "start": {
-          "column": 21,
+          "column": 22,
           "line": 36
         }
       },

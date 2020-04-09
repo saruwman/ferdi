@@ -304,7 +304,9 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
   }
 
   render() {
-    const { recipes, services, user, settings } = this.props.stores;
+    const {
+      recipes, services, user, settings,
+    } = this.props.stores;
     const { action } = this.props.router.params;
 
     let recipe;
