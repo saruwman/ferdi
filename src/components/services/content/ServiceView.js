@@ -12,7 +12,6 @@ import WebviewErrorHandler from './ErrorHandlers/WebviewErrorHandler';
 import ServiceDisabled from './ServiceDisabled';
 import ServiceWebview from './ServiceWebview';
 import SettingsStore from '../../../stores/SettingsStore';
-import ConnectionLostBanner from './ConnectionLostBanner';
 import WebControlsScreen from '../../../features/webControls/containers/WebControlsScreen';
 import { CUSTOM_WEBSITE_ID } from '../../../features/webControls/constants';
 
@@ -204,12 +203,12 @@ export default @inject('stores', 'actions') @observer class ServiceView extends 
                   setWebviewReference={setWebviewReference}
                   detachService={detachService}
                 />
-                {service.lostRecipeConnection && (
+                {/* {service.lostRecipeConnection && (
                   <ConnectionLostBanner
                     name={service.name}
                     reload={reload}
                   />
-                )}
+                )} */}
               </>
             ) : (
               <div>
