@@ -4915,15 +4915,15 @@
         }
       },
       {
-        "defaultMessage": "!!!Disable updates",
+        "defaultMessage": "!!!Enable updates",
         "end": {
           "column": 3,
           "line": 168
         },
         "file": "src/containers/settings/EditSettingsScreen.js",
-        "id": "settings.app.form.noUpdates",
+        "id": "settings.app.form.automaticUpdates",
         "start": {
-          "column": 13,
+          "column": 20,
           "line": 165
         }
       },
