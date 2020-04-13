@@ -229,8 +229,14 @@ export default @observer class EditSettingsForm extends Component {
             onChange={e => this.submit(e)}
             id="form"
           >
+            {/* Titles */}
+            <div >
+             <h2 id="general" className="settings_titles">{intl.formatMessage(messages.headlineGeneral)}</h2>
+             &nbsp;&nbsp;
+             <h2 id="apperance" className="settings_titles">{intl.formatMessage(messages.headlineAppearance)}</h2>
+            </div> 
+          
             {/* General */}
-            <h2 id="general">{intl.formatMessage(messages.headlineGeneral)}</h2>
             <Toggle field={form.$('autoLaunchOnStart')} />
             <Toggle field={form.$('runInBackground')} />
             <Toggle field={form.$('enableSystemTray')} />
@@ -397,7 +403,7 @@ export default @observer class EditSettingsForm extends Component {
 
 
             {/* Appearance */}
-            <h2 id="apperance">{intl.formatMessage(messages.headlineAppearance)}</h2>
+            
             <Toggle field={form.$('showDisabledServices')} />
             <Toggle field={form.$('showMessageBadgeWhenMuted')} />
 
