@@ -373,7 +373,7 @@
   "settings.service.form.darkReaderBrightness": "Brilho",
   "settings.service.form.darkReaderContrast": "Contraste",
   "settings.service.form.darkReaderSepia": "Sépia",
-  "settings.service.form.headlineDarkReaderSettings": "Configurações de RSS",
+  "settings.service.form.headlineDarkReaderSettings": "Configurações do Leitor Escuro",
   "settings.service.form.enableNotification": "Ativar notificações",
   "settings.service.form.enableService": "Ativar serviço",
   "settings.service.form.headlineBadges": "Emblema de mensagem não lida",
