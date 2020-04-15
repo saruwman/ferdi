@@ -1,8 +1,9 @@
 /**
- * Script that automatically creates links to issues inside README.md
+ * Script that automatically creates links to issues and users inside README.md
  *
  * e.g. "#123" => "[#123](https://github.com/getferdi/ferdi/issues/123)"
  * and  "franz/#123" => "[franz#123](https://github.com/meetfranz/franz/issues/123)"
+ * and "@abc" => "[@abc](https://github.com/abc)"
  */
 
 const fs = require('fs-extra');
@@ -37,7 +38,16 @@ readme = readme.replace(/(?<!\[)franz#\d{3,}(?!\])/gi, (match) => {
   return `[franz#${issueNr}](https://github.com/meetfranz/franz/issues/${issueNr})`;
 });
 
+// Link GitHub users
+// Regex matches strings that don't begin with a "[", i.e. are not already linked
+// followed by a "@" and at least one word character and not ending with a "]"
+readme = readme.replace(/(?<!\[)@\w+(?!\])/gi, (match) => {
+  const username = match.replace('@', '');
+  replacements += 1;
+  return `[@${username}](https://github.com/${username})`;
+});
+
 // Write to file
 fs.writeFileSync(readmepath, readme);
 
-console.log(`Added ${replacements} links`);
+console.log(`Added ${replacements} strings`);
