@@ -26,8 +26,7 @@ before_script:
   - travis_retry npx lerna bootstrap
   - travis_retry npm install node-sass -g
 script:
-  - npm run test
-  - travis_wait 45 npm run build
+  - travis_retry travis_wait 100 npm run build
 
 cache: npm
 
