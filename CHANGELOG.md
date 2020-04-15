@@ -21,6 +21,7 @@
 
 ### Bug fixes
 - Fix cache clearing not working in Windows 10 (#541, #544), 💖 @Room4O4 & @mahadevans87
+- Fix Home button in navigation bar not correctly navigating (#571, #573), 💖 @Room4O4 & @mahadevans87
 
 ### Build changes
 - Add retry commands to flaky build steps (#498)
