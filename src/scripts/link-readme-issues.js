@@ -18,6 +18,9 @@ let readme = fs.readFileSync(readmepath, 'utf-8');
 let replacements = 0;
 
 // Replace Ferdi issues
+// Regex matches strings that don't begin with a "[", i.e. are not already linked and
+// don't begin with "franz", i.e. are not Franz issues, followed by a "#" and 3 digits to indicate
+// a GitHub issue, and not ending with a "]"
 readme = readme.replace(/(?<!\[|franz)#\d{3}(?!\])/gi, (match) => {
   const issueNr = match.replace('#', '');
   replacements += 1;
@@ -25,6 +28,9 @@ readme = readme.replace(/(?<!\[|franz)#\d{3}(?!\])/gi, (match) => {
 });
 
 // Replace Franz issues
+// Regex matches strings that don't begin with a "[", i.e. are not already linked
+// followed by a "franz#" and 3 digits to indicate
+// a GitHub issue, and not ending with a "]"
 readme = readme.replace(/(?<!\[)franz#\d{3,}(?!\])/gi, (match) => {
   const issueNr = match.replace('#', '');
   replacements += 1;
