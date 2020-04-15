@@ -1,3 +1,31 @@
+## [5.4.4-gm](https://github.com/getferdi/ferdi/compare/v5.4.4-beta.3...v5.4.4-gm) (2020-04-15)
+### Features
+- Merge Franz 5.5.0-beta.2
+- Add dropdown list to choose Todo service (#418, #477), 💖 @yourcontact
+- Add hotkey for darkmode (#530, #537), 💖 @Room4O4 & @mahadevans87
+- Add option to start Ferdi minimized (#490, #534)
+- Add option to show draggable window area on macOS (#304, #532)
+- Add support for Adaptable Dark Mode on Windows (#548), 💖 @Room4O4 & @mahadevans87
+- Add notification & audio toggle action in tray context menu (#542), 💖 @Room4O4 & @mahadevans87
+- Add Dark Reader settings (#531, #568), 💖 @Room4O4 & @mahadevans87
+
+### Minor changes
+- Improve user onboarding (#493)
+- Improve "Updates" section in settings (#506), 💖 @yourcontact
+- Improve information about Franz Premium and Teams
+- Improve user scripts (#559)
+- Hide user lastname on Ferdi servers as it is not stored
+- Improve draggable window area height for macOS (#304, #479)
+- Remove server setting from settings screen (#516), 💖 @mrassili
+- Update Electron to 8.1.1 (#480)
+
+### Bug fixes
+- Fix cache clearing not working in Windows 10 (#541, #544), 💖 @Room4O4 & @mahadevans87
+
+### Build changes
+- Add retry commands to flaky build steps (#498)
+- Run utility scripts pre-commit instead of pre-push (#515)
+
 # [5.4.3](https://github.com/getferdi/ferdi/compare/v5.4.0...v5.4.3)
 ### Features
 - Add inactivity lock #179
