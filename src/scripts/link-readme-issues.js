@@ -32,7 +32,7 @@ readme = readme.replace(/(?<!\[|franz)#\d{3}(?!\])/gi, (match) => {
 // followed by a "franz#" and 3 digits to indicate
 // a GitHub issue, and not ending with a "]"
 readme = readme.replace(/(?<!\[)franz#\d{3,}(?!\])/gi, (match) => {
-  const issueNr = match.replace('#', '');
+  const issueNr = match.replace('franz#', '');
   replacements += 1;
   return `[franz#${issueNr}](https://github.com/meetfranz/franz/issues/${issueNr})`;
 });
