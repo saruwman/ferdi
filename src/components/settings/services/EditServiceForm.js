@@ -12,6 +12,7 @@ import Service from '../../../models/Service';
 import Tabs, { TabItem } from '../../ui/Tabs';
 import Input from '../../ui/Input';
 import Toggle from '../../ui/Toggle';
+import Slider from '../../ui/Slider';
 import Button from '../../ui/Button';
 import ImageUpload from '../../ui/ImageUpload';
 import Select from '../../ui/Select';
@@ -108,6 +109,10 @@ const messages = defineMessages({
   headlineGeneral: {
     id: 'settings.service.form.headlineGeneral',
     defaultMessage: '!!!General',
+  },
+  headlineDarkReaderSettings: {
+    id: 'settings.service.form.headlineDarkReaderSettings',
+    defaultMessage: '!!!DarkReader Settings',
   },
   iconDelete: {
     id: 'settings.service.form.iconDelete',
@@ -365,7 +370,6 @@ export default @observer class EditServiceForm extends Component {
 
                 <div className="settings__settings-group">
                   <h3>{intl.formatMessage(messages.headlineGeneral)}</h3>
-                  <Toggle field={form.$('isDarkModeEnabled')} />
                   <Toggle field={form.$('isEnabled')} />
                   {isHibernationFeatureActive && (
                     <>
@@ -375,6 +379,17 @@ export default @observer class EditServiceForm extends Component {
                       </p>
                     </>
                   )}
+                  <Toggle field={form.$('isDarkModeEnabled')} />
+                  {form.$('isDarkModeEnabled').value
+                    && (
+                      <>
+                        <h3>{intl.formatMessage(messages.headlineDarkReaderSettings)}</h3>
+                        <Slider field={form.$('darkReaderBrightness')} />
+                        <Slider field={form.$('darkReaderContrast')} />
+                        <Slider field={form.$('darkReaderSepia')} />
+                      </>
+                    )
+                  }
                 </div>
               </div>
               <div className="service-icon">

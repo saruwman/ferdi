@@ -58,6 +58,8 @@ export default class Service {
 
   @observable isDarkModeEnabled = false;
 
+  @observable darkReaderSettings = { brightness: 100, contrast: 90, sepia: 10 };
+
   @observable spellcheckerLanguage = null;
 
   @observable isFirstLoad = true;
@@ -125,6 +127,8 @@ export default class Service {
 
     this.isDarkModeEnabled = data.isDarkModeEnabled !== undefined ? data.isDarkModeEnabled : this.isDarkModeEnabled;
 
+    this.darkReaderSettings = data.darkReaderSettings !== undefined ? data.darkReaderSettings : this.darkReaderSettings;
+
     this.hasCustomUploadedIcon = data.hasCustomIcon !== undefined ? data.hasCustomIcon : this.hasCustomUploadedIcon;
 
     this.proxy = data.proxy !== undefined ? data.proxy : this.proxy;
@@ -154,6 +158,7 @@ export default class Service {
       id: this.id,
       spellcheckerLanguage: this.spellcheckerLanguage,
       isDarkModeEnabled: this.isDarkModeEnabled,
+      darkReaderSettings: this.darkReaderSettings,
       team: this.team,
       url: this.url,
       hasCustomIcon: this.hasCustomIcon,

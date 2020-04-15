@@ -14,7 +14,7 @@
 <p align="center">
 <img alt="GitHub Releases" src="https://img.shields.io/github/downloads/getferdi/ferdi/latest/total?label=Downloads&logo=iCloud&logoColor=%23FFFFFF">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href='#contributors-'><img src='https://img.shields.io/badge/contributors-46-default.svg?logo=github' alt='Contributors'/></a>
+<a href='#contributors-'><img src='https://img.shields.io/badge/contributors-48-default.svg?logo=github' alt='Contributors'/></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
 <a href="#backers-via-opencollective"><img alt="Open Collective backers" src="https://img.shields.io/opencollective/backers/getferdi?logo=open-collective"></a>
 <a href="#sponsors-via-opencollective"><img alt="Open Collective sponsors" src="https://img.shields.io/opencollective/sponsors/getferdi?logo=open-collective"></a>
@@ -53,12 +53,12 @@
 
 ### What is Ferdi?
 
-Ferdi is a messaging browser that allows you to combine your favorite messaging services into one application. It is based on Franz - a software already used by thousands of people - with the difference that Ferdi gives you many additonal features and doesn't restrict its usage! Ferdi is compatible with your existing Franz account so you can continue right where you left off. Find out more about Ferdi and its features on [getferdi.com](https://getferdi.com).
+Ferdi is a messaging browser that allows you to combine your favorite messaging services into one application. It is based on Franz - a software already used by thousands of people - with the difference that Ferdi gives you many additional features and doesn't restrict its usage! Ferdi is compatible with your existing Franz account so you can continue right where you left off. Find out more about Ferdi and its features on [getferdi.com](https://getferdi.com).
 
 ## Features
 - [x] Ferdi puts all your messaging services into one place
 - [x] Native support for 100+ services
-- [x] Workspaces to keep your personal and work life seperated
+- [x] Workspaces to keep your personal and work life separated
 - [x] Support for multiple accounts on any service
 - [x] Dark Mode support for all of your services
 - [x] Optional cloud sync to keep your services synchronized between devices
@@ -98,7 +98,7 @@ You can download Ferdi for Windows, Mac and Linux on [Ferdi's download page](htt
 
 ### Or use AUR (Arch Linux)
 
-Ferdi has three seperate AUR packages you can use:
+Ferdi has three separate AUR packages you can use:
 - **[ferdi](https://aur.archlinux.org/packages/ferdi/)**: Uses your system electron version to run the latest release - this version will work best on most systems.
 - **[ferdi-bin](https://aur.archlinux.org/packages/ferdi-bin/)**: Uses the latest Fedora release and extracts it to Arch. Use this version if you are having trouble with the `ferdi` package.
 - **[ferdi-git](https://aur.archlinux.org/packages/ferdi-git/)**: Uses your system electron version to run the latest commit from the develop branch and may be unstable but may also give you features that are not yet available in other versions. Please only use `ferdi-git` if you accept these risks.
@@ -152,7 +152,7 @@ If you use an AUR Helper e.g. yay, simply install it via `yay -S ferdi`.
 - [x] Adds better support for macOS dark mode
 - [x] Adds option to disable reload of services after resuming Ferdi ([#442](https://github.com/getferdi/ferdi/issues/442))
 - [x] Comes with a custom branding proper to Ferdi
-- [x] Adds better seperation in settings
+- [x] Adds better separation in settings
 - [x] Adds various other UI improvements
 - [x] Improves documentation of development so more developers can help making Ferdi even better
 
@@ -344,6 +344,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://mrassili.com"><img src="https://avatars0.githubusercontent.com/u/25288435?v=4" width="40px;" alt=""/><br /><sub><b>Marouane R</b></sub></a><br /><a href="https://github.com/getferdi/ferdi/commits?author=mrassili" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/yourcontact"><img src="https://avatars2.githubusercontent.com/u/46404814?v=4" width="40px;" alt=""/><br /><sub><b>Roman</b></sub></a><br /><a href="https://github.com/getferdi/ferdi/commits?author=yourcontact" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mahadevans87"><img src="https://avatars1.githubusercontent.com/u/1255523?v=4" width="40px;" alt=""/><br /><sub><b>Mahadevan Sreenivasan</b></sub></a><br /><a href="https://github.com/getferdi/ferdi/commits?author=mahadevans87" title="Code">💻</a></td>
+    <td align="center"><a href="https://jakelee.co.uk"><img src="https://avatars2.githubusercontent.com/u/12380876?v=4" width="40px;" alt=""/><br /><sub><b>Jake Lee</b></sub></a><br /><a href="#content-JakeSteam" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/sampathBlam"><img src="https://avatars1.githubusercontent.com/u/17728976?v=4" width="40px;" alt=""/><br /><sub><b>Sampath Kumar Krishnan</b></sub></a><br /><a href="https://github.com/getferdi/ferdi/commits?author=sampathBlam" title="Code">💻</a></td>
   </tr>
 </table>
 
