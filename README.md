@@ -185,7 +185,7 @@ If you use an AUR Helper e.g. yay, simply install it via `yay -S ferdi`.
 - [x] Switches to [`electron-spellchecker`](https://github.com/electron-userland/electron-spellchecker) to improve application size
 - [x] Minifies build files to improve app size
 - [x] Adds "npm run prepare-code" command for development to lint and beautify code
-- [x] Adds "npm run link-readme-issues" command to automatically add links to issues inside README.md
+- [x] Adds "npm run link-readme" command to automatically add links to issues and users inside README.md
 - [x] Fixes incorrect body closing tag ([#330](https://github.com/getferdi/ferdi/issues/330)), 💖 [@jereksel](https://github.com/jereksel)
 - [x] Uses CrowdIn to improve i18n
 - [x] Adds retry commands to flaky build steps ([#498](https://github.com/getferdi/ferdi/issues/498))
