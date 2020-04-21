@@ -173,7 +173,6 @@ export default @observer class EditSettingsForm extends Component {
     intl: intlShape,
   };
 
- 
 
   state={
     isClicked: false,
@@ -182,6 +181,7 @@ export default @observer class EditSettingsForm extends Component {
   click=() => {
     this.setState({ isClicked: true });
   }
+
   submit(e) {
     e.preventDefault();
     this.props.form.submit({
@@ -192,6 +192,7 @@ export default @observer class EditSettingsForm extends Component {
       onError: () => {},
     });
   }
+
   render() {
     const {
       checkForUpdates,

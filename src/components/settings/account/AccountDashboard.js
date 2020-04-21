@@ -249,6 +249,7 @@ class AccountDashboard extends Component {
                           <div className="account__box">
                             <H2>{intl.formatMessage(messages.yourLicense)}</H2>
                             <p>
+
                               Franz
                               {' '}
                               {isPremiumOverrideUser ? 'Premium' : planName}

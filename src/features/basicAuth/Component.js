@@ -65,8 +65,10 @@ export default @injectSheet(styles) @observer class BasicAuthModal extends Compo
       >
         <h1>Sign in</h1>
         <p>
+
           http
           {authInfo.port === 443 && 's'}
+
           ://
           {authInfo.host}
         </p>

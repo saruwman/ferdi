@@ -2,7 +2,7 @@
   {
     "id": "sidebar.settings",
     "defaultMessage": "!!!Settings",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 15,
       "column": 12
@@ -15,7 +15,7 @@
   {
     "id": "sidebar.addNewService",
     "defaultMessage": "!!!Add new service",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 19,
       "column": 17
@@ -28,7 +28,7 @@
   {
     "id": "sidebar.muteApp",
     "defaultMessage": "!!!Disable notifications & audio",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 23,
       "column": 8
@@ -41,7 +41,7 @@
   {
     "id": "sidebar.unmuteApp",
     "defaultMessage": "!!!Enable notifications & audio",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 27,
       "column": 10
@@ -54,7 +54,7 @@
   {
     "id": "sidebar.openWorkspaceDrawer",
     "defaultMessage": "!!!Open workspace drawer",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 31,
       "column": 23
@@ -67,7 +67,7 @@
   {
     "id": "sidebar.closeWorkspaceDrawer",
     "defaultMessage": "!!!Close workspace drawer",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 35,
       "column": 24
@@ -80,7 +80,7 @@
   {
     "id": "sidebar.openTodosDrawer",
     "defaultMessage": "!!!Open Franz Todos",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 39,
       "column": 19
@@ -93,7 +93,7 @@
   {
     "id": "sidebar.closeTodosDrawer",
     "defaultMessage": "!!!Close Franz Todos",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 43,
       "column": 20
@@ -106,7 +106,7 @@
   {
     "id": "sidebar.lockFerdi",
     "defaultMessage": "!!!Lock Ferdi",
-    "file": "src/components/layout/Sidebar.js",
+    "file": "src\\components\\layout\\Sidebar.js",
     "start": {
       "line": 47,
       "column": 13

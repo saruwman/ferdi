@@ -2,338 +2,351 @@
   {
     "id": "settings.service.form.saveButton",
     "defaultMessage": "!!!Save service",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 24,
+      "line": 25,
       "column": 15
     },
     "end": {
-      "line": 27,
+      "line": 28,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.deleteButton",
     "defaultMessage": "!!!Delete Service",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 28,
+      "line": 29,
       "column": 17
     },
     "end": {
-      "line": 31,
+      "line": 32,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.openDarkmodeCss",
     "defaultMessage": "!!!Open darkmode.css",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 32,
+      "line": 33,
       "column": 19
     },
     "end": {
-      "line": 35,
+      "line": 36,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.openUserCss",
     "defaultMessage": "!!!Open user.css",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 36,
+      "line": 37,
       "column": 15
     },
     "end": {
-      "line": 39,
+      "line": 40,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.openUserJs",
     "defaultMessage": "!!!Open user.js",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 40,
+      "line": 41,
       "column": 14
     },
     "end": {
-      "line": 43,
+      "line": 44,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.recipeFileInfo",
     "defaultMessage": "!!!Your user files will be inserted into the webpage so you can customize services in any way you like. User files are only stored locally and are not transferred to other computers using the same account.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 44,
+      "line": 45,
       "column": 18
     },
     "end": {
-      "line": 47,
+      "line": 48,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.availableServices",
     "defaultMessage": "!!!Available services",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 48,
+      "line": 49,
       "column": 21
     },
     "end": {
-      "line": 51,
+      "line": 52,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.yourServices",
     "defaultMessage": "!!!Your services",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 52,
+      "line": 53,
       "column": 16
     },
     "end": {
-      "line": 55,
+      "line": 56,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.addServiceHeadline",
     "defaultMessage": "!!!Add {name}",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 56,
+      "line": 57,
       "column": 22
     },
     "end": {
-      "line": 59,
+      "line": 60,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.editServiceHeadline",
     "defaultMessage": "!!!Edit {name}",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 60,
+      "line": 61,
       "column": 23
     },
     "end": {
-      "line": 63,
+      "line": 64,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.tabHosted",
     "defaultMessage": "!!!Hosted",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 64,
+      "line": 65,
       "column": 13
     },
     "end": {
-      "line": 67,
+      "line": 68,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.tabOnPremise",
     "defaultMessage": "!!!Self hosted ⭐️",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 68,
+      "line": 69,
       "column": 16
     },
     "end": {
-      "line": 71,
+      "line": 72,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.useHostedService",
     "defaultMessage": "!!!Use the hosted {name} service.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 72,
+      "line": 73,
       "column": 20
     },
     "end": {
-      "line": 75,
+      "line": 76,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.customUrlValidationError",
     "defaultMessage": "!!!Could not validate custom {name} server.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 76,
+      "line": 77,
       "column": 28
     },
     "end": {
-      "line": 79,
+      "line": 80,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.customUrlPremiumInfo",
     "defaultMessage": "!!!To add self hosted services, you need a Ferdi Premium Supporter Account.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 80,
+      "line": 81,
       "column": 24
     },
     "end": {
-      "line": 83,
+      "line": 84,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.customUrlUpgradeAccount",
     "defaultMessage": "!!!Upgrade your account",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 84,
+      "line": 85,
       "column": 27
     },
     "end": {
-      "line": 87,
+      "line": 88,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.indirectMessageInfo",
     "defaultMessage": "!!!You will be notified about all new messages in a channel, not just @username, @channel, @here, ...",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 88,
+      "line": 89,
       "column": 23
     },
     "end": {
-      "line": 91,
+      "line": 92,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.isMutedInfo",
     "defaultMessage": "!!!When disabled, all notification sounds and audio playback are muted",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 92,
+      "line": 93,
       "column": 15
     },
     "end": {
-      "line": 95,
+      "line": 96,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.headlineNotifications",
     "defaultMessage": "!!!Notifications",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 96,
+      "line": 97,
       "column": 25
     },
     "end": {
-      "line": 99,
+      "line": 100,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.headlineBadges",
     "defaultMessage": "!!!Unread message badges",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 100,
+      "line": 101,
       "column": 18
     },
     "end": {
-      "line": 103,
+      "line": 104,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.headlineGeneral",
     "defaultMessage": "!!!General",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 104,
+      "line": 105,
       "column": 19
     },
     "end": {
-      "line": 107,
+      "line": 108,
+      "column": 3
+    }
+  },
+  {
+    "id": "settings.service.form.headlineDarkReaderSettings",
+    "defaultMessage": "!!!DarkReader Settings",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
+    "start": {
+      "line": 109,
+      "column": 30
+    },
+    "end": {
+      "line": 112,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.iconDelete",
     "defaultMessage": "!!!Delete",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 108,
+      "line": 113,
       "column": 14
     },
     "end": {
-      "line": 111,
+      "line": 116,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.iconUpload",
     "defaultMessage": "!!!Drop your image, or click here",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 112,
+      "line": 117,
       "column": 14
     },
     "end": {
-      "line": 115,
+      "line": 120,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.proxy.headline",
     "defaultMessage": "!!!HTTP/HTTPS Proxy Settings",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 116,
+      "line": 121,
       "column": 17
     },
     "end": {
-      "line": 119,
+      "line": 124,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.proxy.restartInfo",
     "defaultMessage": "!!!Please restart Ferdi after changing proxy Settings.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 120,
+      "line": 125,
       "column": 20
     },
     "end": {
-      "line": 123,
+      "line": 128,
       "column": 3
     }
   },
   {
     "id": "settings.service.form.proxy.info",
     "defaultMessage": "!!!Proxy settings will not be synchronized with the Ferdi servers.",
-    "file": "src/components/settings/services/EditServiceForm.js",
+    "file": "src\\components\\settings\\services\\EditServiceForm.js",
     "start": {
-      "line": 124,
+      "line": 129,
       "column": 13
     },
     "end": {
-      "line": 127,
+      "line": 132,
       "column": 3
     }
   }

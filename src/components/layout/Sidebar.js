@@ -195,6 +195,7 @@ export default @inject('stores', 'actions') @observer class Sidebar extends Comp
           { (this.props.stores.app.updateStatus === this.props.stores.app.updateStatusTypes.AVAILABLE
             || this.props.stores.app.updateStatus === this.props.stores.app.updateStatusTypes.DOWNLOADED) && (
             <span className="update-available">
+
               •
             </span>
           ) }

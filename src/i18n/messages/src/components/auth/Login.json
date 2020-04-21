@@ -2,7 +2,7 @@
   {
     "id": "login.headline",
     "defaultMessage": "!!!Sign in",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 19,
       "column": 12
@@ -15,7 +15,7 @@
   {
     "id": "login.email.label",
     "defaultMessage": "!!!Email address",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 23,
       "column": 14
@@ -28,7 +28,7 @@
   {
     "id": "login.password.label",
     "defaultMessage": "!!!Password",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 27,
       "column": 17
@@ -41,7 +41,7 @@
   {
     "id": "login.submit.label",
     "defaultMessage": "!!!Sign in",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 31,
       "column": 21
@@ -54,7 +54,7 @@
   {
     "id": "login.invalidCredentials",
     "defaultMessage": "!!!Email or password not valid",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 35,
       "column": 22
@@ -67,7 +67,7 @@
   {
     "id": "login.customServerQuestion",
     "defaultMessage": "!!!Using a Franz account to log in?",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 39,
       "column": 24
@@ -80,7 +80,7 @@
   {
     "id": "login.customServerSuggestion",
     "defaultMessage": "!!!Try importing your Franz account into Ferdi",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 43,
       "column": 26
@@ -93,7 +93,7 @@
   {
     "id": "login.tokenExpired",
     "defaultMessage": "!!!Your session expired, please login again.",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 47,
       "column": 16
@@ -106,7 +106,7 @@
   {
     "id": "login.serverLogout",
     "defaultMessage": "!!!Your session expired, please login again.",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 51,
       "column": 16
@@ -119,7 +119,7 @@
   {
     "id": "login.link.signup",
     "defaultMessage": "!!!Create a free account",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 55,
       "column": 14
@@ -132,7 +132,7 @@
   {
     "id": "login.changeServer",
     "defaultMessage": "!!!Change server",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 59,
       "column": 16
@@ -145,7 +145,7 @@
   {
     "id": "services.serverless",
     "defaultMessage": "!!!Use Ferdi without an Account",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 63,
       "column": 14
@@ -158,7 +158,7 @@
   {
     "id": "login.link.password",
     "defaultMessage": "!!!Forgot password",
-    "file": "src/components/auth/Login.js",
+    "file": "src\\components\\auth\\Login.js",
     "start": {
       "line": 67,
       "column": 16

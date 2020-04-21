@@ -61,6 +61,7 @@ export default @injectSheet(styles) @observer class WebviewErrorHandler extends 
         <p>
           <strong>
             {intl.formatMessage(messages.errorMessage)}
+
 :
           </strong>
           {' '}

@@ -2,7 +2,7 @@
   {
     "id": "settings.service.form.name",
     "defaultMessage": "!!!Name",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 28,
       "column": 8
@@ -15,7 +15,7 @@
   {
     "id": "settings.service.form.enableService",
     "defaultMessage": "!!!Enable service",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 32,
       "column": 17
@@ -28,7 +28,7 @@
   {
     "id": "settings.service.form.enableNotification",
     "defaultMessage": "!!!Enable Notifications",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 36,
       "column": 22
@@ -41,7 +41,7 @@
   {
     "id": "settings.service.form.enableBadge",
     "defaultMessage": "!!!Show unread message badges",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 40,
       "column": 15
@@ -54,7 +54,7 @@
   {
     "id": "settings.service.form.enableAudio",
     "defaultMessage": "!!!Enable audio",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 44,
       "column": 15
@@ -67,7 +67,7 @@
   {
     "id": "settings.service.form.team",
     "defaultMessage": "!!!Team",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 48,
       "column": 8
@@ -80,7 +80,7 @@
   {
     "id": "settings.service.form.customUrl",
     "defaultMessage": "!!!Service URL",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 52,
       "column": 13
@@ -93,7 +93,7 @@
   {
     "id": "settings.service.form.indirectMessages",
     "defaultMessage": "!!!Show message badge for all new messages",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 56,
       "column": 20
@@ -106,7 +106,7 @@
   {
     "id": "settings.service.form.icon",
     "defaultMessage": "!!!Custom icon",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 60,
       "column": 8
@@ -119,7 +119,7 @@
   {
     "id": "settings.service.form.enableDarkMode",
     "defaultMessage": "!!!Enable Dark Mode",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 64,
       "column": 18
@@ -130,12 +130,12 @@
     }
   },
   {
-    "id": "settings.service.form.proxy.isEnabled",
-    "defaultMessage": "!!!Use Proxy",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "id": "settings.service.form.darkReaderBrightness",
+    "defaultMessage": "!!!Darkreader Brightness",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 68,
-      "column": 15
+      "column": 24
     },
     "end": {
       "line": 71,
@@ -143,12 +143,12 @@
     }
   },
   {
-    "id": "settings.service.form.proxy.host",
-    "defaultMessage": "!!!Proxy Host/IP",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "id": "settings.service.form.darkReaderContrast",
+    "defaultMessage": "!!!Darkreader Contrast",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 72,
-      "column": 13
+      "column": 22
     },
     "end": {
       "line": 75,
@@ -156,12 +156,12 @@
     }
   },
   {
-    "id": "settings.service.form.proxy.port",
-    "defaultMessage": "!!!Port",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "id": "settings.service.form.darkReaderSepia",
+    "defaultMessage": "!!!Darkreader Sepia",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 76,
-      "column": 13
+      "column": 19
     },
     "end": {
       "line": 79,
@@ -169,12 +169,12 @@
     }
   },
   {
-    "id": "settings.service.form.proxy.user",
-    "defaultMessage": "!!!User",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "id": "settings.service.form.proxy.isEnabled",
+    "defaultMessage": "!!!Use Proxy",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 80,
-      "column": 13
+      "column": 15
     },
     "end": {
       "line": 83,
@@ -182,15 +182,54 @@
     }
   },
   {
-    "id": "settings.service.form.proxy.password",
-    "defaultMessage": "!!!Password",
-    "file": "src/containers/settings/EditServiceScreen.js",
+    "id": "settings.service.form.proxy.host",
+    "defaultMessage": "!!!Proxy Host/IP",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
     "start": {
       "line": 84,
-      "column": 17
+      "column": 13
     },
     "end": {
       "line": 87,
+      "column": 3
+    }
+  },
+  {
+    "id": "settings.service.form.proxy.port",
+    "defaultMessage": "!!!Port",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
+    "start": {
+      "line": 88,
+      "column": 13
+    },
+    "end": {
+      "line": 91,
+      "column": 3
+    }
+  },
+  {
+    "id": "settings.service.form.proxy.user",
+    "defaultMessage": "!!!User",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
+    "start": {
+      "line": 92,
+      "column": 13
+    },
+    "end": {
+      "line": 95,
+      "column": 3
+    }
+  },
+  {
+    "id": "settings.service.form.proxy.password",
+    "defaultMessage": "!!!Password",
+    "file": "src\\containers\\settings\\EditServiceScreen.js",
+    "start": {
+      "line": 96,
+      "column": 17
+    },
+    "end": {
+      "line": 99,
       "column": 3
     }
   }

@@ -2,7 +2,7 @@
   {
     "id": "settings.supportFerdi.headline",
     "defaultMessage": "!!!Support Ferdi",
-    "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+    "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
     "start": {
       "line": 8,
       "column": 12
@@ -15,7 +15,7 @@
   {
     "id": "settings.supportFerdi.title",
     "defaultMessage": "!!!Do you like Ferdi? Spread the love!",
-    "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+    "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
     "start": {
       "line": 12,
       "column": 9
@@ -28,7 +28,7 @@
   {
     "id": "settings.supportFerdi.github",
     "defaultMessage": "!!!Star on GitHub",
-    "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+    "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
     "start": {
       "line": 16,
       "column": 10
@@ -41,7 +41,7 @@
   {
     "id": "settings.supportFerdi.share",
     "defaultMessage": "!!!Tell your Friends",
-    "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+    "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
     "start": {
       "line": 20,
       "column": 9
@@ -54,7 +54,7 @@
   {
     "id": "settings.supportFerdi.openCollective",
     "defaultMessage": "!!!Support our Open Collective",
-    "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+    "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
     "start": {
       "line": 24,
       "column": 18

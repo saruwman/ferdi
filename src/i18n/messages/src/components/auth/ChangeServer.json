@@ -2,7 +2,7 @@
   {
     "id": "changeserver.headline",
     "defaultMessage": "!!!Change server",
-    "file": "src/components/auth/ChangeServer.js",
+    "file": "src\\components\\auth\\ChangeServer.js",
     "start": {
       "line": 11,
       "column": 12
@@ -15,7 +15,7 @@
   {
     "id": "changeserver.label",
     "defaultMessage": "!!!Server",
-    "file": "src/components/auth/ChangeServer.js",
+    "file": "src\\components\\auth\\ChangeServer.js",
     "start": {
       "line": 15,
       "column": 9
@@ -28,7 +28,7 @@
   {
     "id": "changeserver.submit",
     "defaultMessage": "!!!Submit",
-    "file": "src/components/auth/ChangeServer.js",
+    "file": "src\\components\\auth\\ChangeServer.js",
     "start": {
       "line": 19,
       "column": 10
