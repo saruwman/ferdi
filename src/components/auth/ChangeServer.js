@@ -40,7 +40,7 @@ export default @observer class ChangeServer extends Component {
 
   ferdiServer='api.getferdi.com';
 
-  franzServer='this.props.server';
+  franzServer='https://api.franzinfra.com';
 
   form = new Form({
     fields: {
@@ -69,7 +69,6 @@ export default @observer class ChangeServer extends Component {
   render() {
     const { form } = this;
     const { intl } = this.context;
-
     return (
       <div className="auth__container">
         <form className="franz-form auth__form" onSubmit={e => this.submit(e)}>
