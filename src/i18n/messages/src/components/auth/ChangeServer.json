@@ -39,15 +39,28 @@
     }
   },
   {
+    "id": "changeserver.customServerLabel",
+    "defaultMessage": "!!!Custom server",
+    "file": "src\\components\\auth\\ChangeServer.js",
+    "start": {
+      "line": 24,
+      "column": 20
+    },
+    "end": {
+      "line": 27,
+      "column": 3
+    }
+  },
+  {
     "id": "changeserver.submit",
     "defaultMessage": "!!!Submit",
     "file": "src\\components\\auth\\ChangeServer.js",
     "start": {
-      "line": 25,
+      "line": 28,
       "column": 10
     },
     "end": {
-      "line": 28,
+      "line": 31,
       "column": 3
     }
   }

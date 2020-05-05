@@ -72,7 +72,7 @@
         }
       },
       {
-        "defaultMessage": "!!!Try",
+        "defaultMessage": "!!!Some settings offered by Ferdi will not be saved",
         "end": {
           "column": 3,
           "line": 23
@@ -80,21 +80,34 @@
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.warning",
         "start": {
-          "column": 10,
+          "column": 11,
           "line": 20
+        }
+      },
+      {
+        "defaultMessage": "!!!Custom server",
+        "end": {
+          "column": 3,
+          "line": 27
+        },
+        "file": "src\\components\\auth\\ChangeServer.js",
+        "id": "changeserver.customServerLabel",
+        "start": {
+          "column": 20,
+          "line": 24
         }
       },
       {
         "defaultMessage": "!!!Submit",
         "end": {
           "column": 3,
-          "line": 28
+          "line": 31
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.submit",
         "start": {
           "column": 10,
-          "line": 25
+          "line": 28
         }
       }
     ],
@@ -5929,39 +5942,39 @@
         "defaultMessage": "!!!Franz Todos are available to premium users now!",
         "end": {
           "column": 3,
-          "line": 32
+          "line": 34
         },
         "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.info",
         "start": {
           "column": 15,
-          "line": 29
+          "line": 31
         }
       },
       {
         "defaultMessage": "!!!Upgrade Account",
         "end": {
           "column": 3,
-          "line": 36
+          "line": 38
         },
         "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.upgrade",
         "start": {
           "column": 14,
-          "line": 33
+          "line": 35
         }
       },
       {
         "defaultMessage": "!!!Everyone else will have to wait a little longer.",
         "end": {
           "column": 3,
-          "line": 40
+          "line": 42
         },
         "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.rollout",
         "start": {
           "column": 15,
-          "line": 37
+          "line": 39
         }
       }
     ],

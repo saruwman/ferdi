@@ -21,7 +21,10 @@ const messages = defineMessages({
     id: 'changeserver.warning',
     defaultMessage: '!!!Some settings offered by Ferdi will not be saved',
   },
-
+  customServerLabel:{
+    id:'changeserver.customServerLabel',
+    defaultMessage:'!!!Custom server'
+  },
   submit: {
     id: 'changeserver.submit',
     defaultMessage: '!!!Submit',
@@ -31,14 +34,14 @@ const messages = defineMessages({
 export default @observer class ChangeServer extends Component {
   static propTypes = {
     onSubmit: PropTypes.func.isRequired,
-    //server: PropTypes.string.isRequired,
+    // server: PropTypes.string.isRequired,
   };
 
   static contextTypes = {
     intl: intlShape,
   };
 
-  ferdiServer='api.getferdi.com';
+  ferdiServer='https://api.getferdi.com';
 
   franzServer='https://api.franzinfra.com';
 
@@ -49,6 +52,10 @@ export default @observer class ChangeServer extends Component {
         value: this.ferdiServer,
         options: [{ value: this.ferdiServer, label: 'Ferdi server (Default)' }, { value: this.franzServer, label: 'Franz server' }, { value: '', label: 'Custom server' }],
       },
+      customServer:{
+        label:this.context.intl.formatMessage(messages.customServerLabel),
+        value:''
+      }
     },
   }, this.context.intl);
 
@@ -60,6 +67,9 @@ export default @observer class ChangeServer extends Component {
     e.preventDefault();
     this.form.submit({
       onSuccess: (form) => {
+        if (form.values().server===""){
+          form.$('server').onChange(form.values().customServer)
+        }
         this.props.onSubmit(form.values());
       },
       onError: () => { },
@@ -77,8 +87,9 @@ export default @observer class ChangeServer extends Component {
           {![this.ferdiServer, this.franzServer].includes(form.$('server').value)
           && (
           <Input
-            field={form.$('server')}
-            focus
+            placeholder="Custom Server"
+            onChange={e => this.submit(e)}
+            field={form.$('customServer')}
           />
           )}
           {form.$('server').value === this.franzServer
