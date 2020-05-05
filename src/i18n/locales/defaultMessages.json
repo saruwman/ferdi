@@ -7,7 +7,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/components/AppUpdateInfoBar.js",
+        "file": "src\\components\\AppUpdateInfoBar.js",
         "id": "infobar.updateAvailable",
         "start": {
           "column": 19,
@@ -20,7 +20,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/components/AppUpdateInfoBar.js",
+        "file": "src\\components\\AppUpdateInfoBar.js",
         "id": "infobar.buttonChangelog",
         "start": {
           "column": 13,
@@ -33,7 +33,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/AppUpdateInfoBar.js",
+        "file": "src\\components\\AppUpdateInfoBar.js",
         "id": "infobar.buttonInstallUpdate",
         "start": {
           "column": 23,
@@ -49,39 +49,52 @@
         "defaultMessage": "!!!Change server",
         "end": {
           "column": 3,
-          "line": 14
+          "line": 15
         },
-        "file": "src/components/auth/ChangeServer.js",
+        "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.headline",
         "start": {
           "column": 12,
-          "line": 11
+          "line": 12
         }
       },
       {
         "defaultMessage": "!!!Server",
         "end": {
           "column": 3,
-          "line": 18
+          "line": 19
         },
-        "file": "src/components/auth/ChangeServer.js",
+        "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.label",
         "start": {
           "column": 9,
-          "line": 15
+          "line": 16
+        }
+      },
+      {
+        "defaultMessage": "!!!Try",
+        "end": {
+          "column": 3,
+          "line": 23
+        },
+        "file": "src\\components\\auth\\ChangeServer.js",
+        "id": "changeserver.warning",
+        "start": {
+          "column": 10,
+          "line": 20
         }
       },
       {
         "defaultMessage": "!!!Submit",
         "end": {
           "column": 3,
-          "line": 22
+          "line": 28
         },
-        "file": "src/components/auth/ChangeServer.js",
+        "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.submit",
         "start": {
           "column": 10,
-          "line": 19
+          "line": 25
         }
       }
     ],
@@ -95,7 +108,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/components/auth/Import.js",
+        "file": "src\\components\\auth\\Import.js",
         "id": "import.headline",
         "start": {
           "column": 12,
@@ -108,7 +121,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/auth/Import.js",
+        "file": "src\\components\\auth\\Import.js",
         "id": "import.notSupportedHeadline",
         "start": {
           "column": 24,
@@ -121,7 +134,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/auth/Import.js",
+        "file": "src\\components\\auth\\Import.js",
         "id": "import.submit.label",
         "start": {
           "column": 21,
@@ -134,7 +147,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/auth/Import.js",
+        "file": "src\\components\\auth\\Import.js",
         "id": "import.skip.label",
         "start": {
           "column": 19,
@@ -152,7 +165,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "settings.invite.headline",
         "start": {
           "column": 20,
@@ -165,7 +178,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.headline.friends",
         "start": {
           "column": 12,
@@ -178,7 +191,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.name.label",
         "start": {
           "column": 13,
@@ -191,7 +204,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.email.label",
         "start": {
           "column": 14,
@@ -204,7 +217,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.submit.label",
         "start": {
           "column": 21,
@@ -217,7 +230,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.skip.label",
         "start": {
           "column": 19,
@@ -230,7 +243,7 @@
           "column": 3,
           "line": 43
         },
-        "file": "src/components/auth/Invite.js",
+        "file": "src\\components\\auth\\Invite.js",
         "id": "invite.successInfo",
         "start": {
           "column": 21,
@@ -248,7 +261,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.headline",
         "start": {
           "column": 12,
@@ -261,7 +274,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.info",
         "start": {
           "column": 8,
@@ -274,7 +287,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.touchId",
         "start": {
           "column": 11,
@@ -287,7 +300,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.touchIdPrompt",
         "start": {
           "column": 17,
@@ -300,7 +313,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.password.label",
         "start": {
           "column": 17,
@@ -313,7 +326,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.submit.label",
         "start": {
           "column": 21,
@@ -326,7 +339,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.unlockWithPassword",
         "start": {
           "column": 22,
@@ -339,7 +352,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/auth/Locked.js",
+        "file": "src\\components\\auth\\Locked.js",
         "id": "locked.invalidCredentials",
         "start": {
           "column": 22,
@@ -357,7 +370,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.headline",
         "start": {
           "column": 12,
@@ -370,7 +383,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.email.label",
         "start": {
           "column": 14,
@@ -383,7 +396,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.password.label",
         "start": {
           "column": 17,
@@ -396,7 +409,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.submit.label",
         "start": {
           "column": 21,
@@ -409,7 +422,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.invalidCredentials",
         "start": {
           "column": 22,
@@ -422,7 +435,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.customServerQuestion",
         "start": {
           "column": 24,
@@ -435,7 +448,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.customServerSuggestion",
         "start": {
           "column": 26,
@@ -448,7 +461,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.tokenExpired",
         "start": {
           "column": 16,
@@ -461,7 +474,7 @@
           "column": 3,
           "line": 54
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.serverLogout",
         "start": {
           "column": 16,
@@ -474,7 +487,7 @@
           "column": 3,
           "line": 58
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.link.signup",
         "start": {
           "column": 14,
@@ -487,7 +500,7 @@
           "column": 3,
           "line": 62
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.changeServer",
         "start": {
           "column": 16,
@@ -500,7 +513,7 @@
           "column": 3,
           "line": 66
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "services.serverless",
         "start": {
           "column": 14,
@@ -513,7 +526,7 @@
           "column": 3,
           "line": 70
         },
-        "file": "src/components/auth/Login.js",
+        "file": "src\\components\\auth\\Login.js",
         "id": "login.link.password",
         "start": {
           "column": 16,
@@ -531,7 +544,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.headline",
         "start": {
           "column": 12,
@@ -544,7 +557,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.email.label",
         "start": {
           "column": 14,
@@ -557,7 +570,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.submit.label",
         "start": {
           "column": 21,
@@ -570,7 +583,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.successInfo",
         "start": {
           "column": 15,
@@ -583,7 +596,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.noUser",
         "start": {
           "column": 10,
@@ -596,7 +609,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.link.signup",
         "start": {
           "column": 14,
@@ -609,7 +622,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/components/auth/Password.js",
+        "file": "src\\components\\auth\\Password.js",
         "id": "password.link.login",
         "start": {
           "column": 13,
@@ -627,7 +640,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.headline.pro",
         "start": {
           "column": 12,
@@ -640,7 +653,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.intro.specialTreat",
         "start": {
           "column": 16,
@@ -653,7 +666,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.intro.tryPro",
         "start": {
           "column": 10,
@@ -666,7 +679,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.intro.happyMessaging",
         "start": {
           "column": 18,
@@ -679,7 +692,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.terms.headline",
         "start": {
           "column": 29,
@@ -692,7 +705,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.terms.noCreditCard",
         "start": {
           "column": 16,
@@ -705,7 +718,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.terms.automaticTrialEnd",
         "start": {
           "column": 21,
@@ -718,7 +731,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.terms.trialWorth",
         "start": {
           "column": 14,
@@ -731,7 +744,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.error",
         "start": {
           "column": 19,
@@ -744,7 +757,7 @@
           "column": 3,
           "line": 54
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.cta.accept",
         "start": {
           "column": 13,
@@ -757,7 +770,7 @@
           "column": 3,
           "line": 58
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.cta.start",
         "start": {
           "column": 12,
@@ -770,7 +783,7 @@
           "column": 3,
           "line": 62
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.cta.skip",
         "start": {
           "column": 11,
@@ -783,7 +796,7 @@
           "column": 3,
           "line": 66
         },
-        "file": "src/components/auth/Pricing.js",
+        "file": "src\\components\\auth\\Pricing.js",
         "id": "pricing.trial.features.headline",
         "start": {
           "column": 20,
@@ -801,7 +814,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.headline",
         "start": {
           "column": 12,
@@ -814,7 +827,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.firstname.label",
         "start": {
           "column": 18,
@@ -827,7 +840,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.lastname.label",
         "start": {
           "column": 17,
@@ -840,7 +853,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.email.label",
         "start": {
           "column": 14,
@@ -853,7 +866,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.password.label",
         "start": {
           "column": 17,
@@ -866,7 +879,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.legal.info",
         "start": {
           "column": 13,
@@ -879,7 +892,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.legal.terms",
         "start": {
           "column": 9,
@@ -892,7 +905,7 @@
           "column": 3,
           "line": 54
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.legal.privacy",
         "start": {
           "column": 11,
@@ -905,7 +918,7 @@
           "column": 3,
           "line": 58
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.submit.label",
         "start": {
           "column": 21,
@@ -918,7 +931,7 @@
           "column": 3,
           "line": 62
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.link.login",
         "start": {
           "column": 13,
@@ -931,7 +944,7 @@
           "column": 3,
           "line": 66
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "login.changeServer",
         "start": {
           "column": 16,
@@ -944,7 +957,7 @@
           "column": 3,
           "line": 70
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "services.serverless",
         "start": {
           "column": 14,
@@ -957,7 +970,7 @@
           "column": 3,
           "line": 74
         },
-        "file": "src/components/auth/Signup.js",
+        "file": "src\\components\\auth\\Signup.js",
         "id": "signup.emailDuplicate",
         "start": {
           "column": 18,
@@ -975,7 +988,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/auth/Welcome.js",
+        "file": "src\\components\\auth\\Welcome.js",
         "id": "welcome.signupButton",
         "start": {
           "column": 16,
@@ -988,7 +1001,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/auth/Welcome.js",
+        "file": "src\\components\\auth\\Welcome.js",
         "id": "welcome.loginButton",
         "start": {
           "column": 15,
@@ -1001,7 +1014,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/auth/Welcome.js",
+        "file": "src\\components\\auth\\Welcome.js",
         "id": "services.serverless",
         "start": {
           "column": 14,
@@ -1019,7 +1032,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/layout/AppLayout.js",
+        "file": "src\\components\\layout\\AppLayout.js",
         "id": "infobar.servicesUpdated",
         "start": {
           "column": 19,
@@ -1032,7 +1045,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/layout/AppLayout.js",
+        "file": "src\\components\\layout\\AppLayout.js",
         "id": "infobar.buttonReloadServices",
         "start": {
           "column": 24,
@@ -1045,7 +1058,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/layout/AppLayout.js",
+        "file": "src\\components\\layout\\AppLayout.js",
         "id": "infobar.requiredRequestsFailed",
         "start": {
           "column": 26,
@@ -1058,7 +1071,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/layout/AppLayout.js",
+        "file": "src\\components\\layout\\AppLayout.js",
         "id": "infobar.authRequestFailed",
         "start": {
           "column": 21,
@@ -1076,7 +1089,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.settings",
         "start": {
           "column": 12,
@@ -1089,7 +1102,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.addNewService",
         "start": {
           "column": 17,
@@ -1102,7 +1115,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.muteApp",
         "start": {
           "column": 8,
@@ -1115,7 +1128,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.unmuteApp",
         "start": {
           "column": 10,
@@ -1128,7 +1141,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.openWorkspaceDrawer",
         "start": {
           "column": 23,
@@ -1141,7 +1154,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.closeWorkspaceDrawer",
         "start": {
           "column": 24,
@@ -1154,7 +1167,7 @@
           "column": 3,
           "line": 45
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.openTodosDrawer",
         "start": {
           "column": 19,
@@ -1167,7 +1180,7 @@
           "column": 3,
           "line": 49
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.closeTodosDrawer",
         "start": {
           "column": 20,
@@ -1180,7 +1193,7 @@
           "column": 3,
           "line": 53
         },
-        "file": "src/components/layout/Sidebar.js",
+        "file": "src\\components\\layout\\Sidebar.js",
         "id": "sidebar.lockFerdi",
         "start": {
           "column": 13,
@@ -1338,7 +1351,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/services/content/ConnectionLostBanner.js",
+        "file": "src\\components\\services\\content\\ConnectionLostBanner.js",
         "id": "connectionLostBanner.message",
         "start": {
           "column": 8,
@@ -1351,7 +1364,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/services/content/ConnectionLostBanner.js",
+        "file": "src\\components\\services\\content\\ConnectionLostBanner.js",
         "id": "connectionLostBanner.informationLink",
         "start": {
           "column": 19,
@@ -1364,7 +1377,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/services/content/ConnectionLostBanner.js",
+        "file": "src\\components\\services\\content\\ConnectionLostBanner.js",
         "id": "connectionLostBanner.cta",
         "start": {
           "column": 7,
@@ -1382,7 +1395,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/components/services/content/ErrorHandlers/WebviewErrorHandler.js",
+        "file": "src\\components\\services\\content\\ErrorHandlers\\WebviewErrorHandler.js",
         "id": "service.errorHandler.headline",
         "start": {
           "column": 12,
@@ -1395,7 +1408,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/components/services/content/ErrorHandlers/WebviewErrorHandler.js",
+        "file": "src\\components\\services\\content\\ErrorHandlers\\WebviewErrorHandler.js",
         "id": "service.errorHandler.text",
         "start": {
           "column": 8,
@@ -1408,7 +1421,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/components/services/content/ErrorHandlers/WebviewErrorHandler.js",
+        "file": "src\\components\\services\\content\\ErrorHandlers\\WebviewErrorHandler.js",
         "id": "service.errorHandler.action",
         "start": {
           "column": 10,
@@ -1421,7 +1434,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/components/services/content/ErrorHandlers/WebviewErrorHandler.js",
+        "file": "src\\components\\services\\content\\ErrorHandlers\\WebviewErrorHandler.js",
         "id": "service.errorHandler.editAction",
         "start": {
           "column": 14,
@@ -1434,7 +1447,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/components/services/content/ErrorHandlers/WebviewErrorHandler.js",
+        "file": "src\\components\\services\\content\\ErrorHandlers\\WebviewErrorHandler.js",
         "id": "service.errorHandler.message",
         "start": {
           "column": 16,
@@ -1452,7 +1465,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/components/services/content/ServiceDisabled.js",
+        "file": "src\\components\\services\\content\\ServiceDisabled.js",
         "id": "service.disabledHandler.headline",
         "start": {
           "column": 12,
@@ -1465,7 +1478,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/components/services/content/ServiceDisabled.js",
+        "file": "src\\components\\services\\content\\ServiceDisabled.js",
         "id": "service.disabledHandler.action",
         "start": {
           "column": 10,
@@ -1483,7 +1496,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/services/content/ServiceRestricted.js",
+        "file": "src\\components\\services\\content\\ServiceRestricted.js",
         "id": "service.restrictedHandler.serviceLimit.headline",
         "start": {
           "column": 24,
@@ -1496,7 +1509,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/services/content/ServiceRestricted.js",
+        "file": "src\\components\\services\\content\\ServiceRestricted.js",
         "id": "service.restrictedHandler.serviceLimit.text",
         "start": {
           "column": 20,
@@ -1509,7 +1522,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/services/content/ServiceRestricted.js",
+        "file": "src\\components\\services\\content\\ServiceRestricted.js",
         "id": "service.restrictedHandler.customUrl.headline",
         "start": {
           "column": 21,
@@ -1522,7 +1535,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/services/content/ServiceRestricted.js",
+        "file": "src\\components\\services\\content\\ServiceRestricted.js",
         "id": "service.restrictedHandler.customUrl.text",
         "start": {
           "column": 17,
@@ -1535,7 +1548,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/services/content/ServiceRestricted.js",
+        "file": "src\\components\\services\\content\\ServiceRestricted.js",
         "id": "service.restrictedHandler.action",
         "start": {
           "column": 10,
@@ -1553,7 +1566,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/services/content/Services.js",
+        "file": "src\\components\\services\\content\\Services.js",
         "id": "services.welcome",
         "start": {
           "column": 11,
@@ -1566,7 +1579,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/services/content/Services.js",
+        "file": "src\\components\\services\\content\\Services.js",
         "id": "services.getStarted",
         "start": {
           "column": 14,
@@ -1579,7 +1592,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/services/content/Services.js",
+        "file": "src\\components\\services\\content\\Services.js",
         "id": "services.login",
         "start": {
           "column": 9,
@@ -1592,7 +1605,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/services/content/Services.js",
+        "file": "src\\components\\services\\content\\Services.js",
         "id": "services.serverless",
         "start": {
           "column": 14,
@@ -1605,7 +1618,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/services/content/Services.js",
+        "file": "src\\components\\services\\content\\Services.js",
         "id": "services.serverInfo",
         "start": {
           "column": 14,
@@ -1693,7 +1706,7 @@
           "column": 3,
           "line": 13
         },
-        "file": "src/components/services/content/WebviewCrashHandler.js",
+        "file": "src\\components\\services\\content\\WebviewCrashHandler.js",
         "id": "service.crashHandler.headline",
         "start": {
           "column": 12,
@@ -1706,7 +1719,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/components/services/content/WebviewCrashHandler.js",
+        "file": "src\\components\\services\\content\\WebviewCrashHandler.js",
         "id": "service.crashHandler.text",
         "start": {
           "column": 8,
@@ -1719,7 +1732,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/components/services/content/WebviewCrashHandler.js",
+        "file": "src\\components\\services\\content\\WebviewCrashHandler.js",
         "id": "service.crashHandler.action",
         "start": {
           "column": 10,
@@ -1732,7 +1745,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/services/content/WebviewCrashHandler.js",
+        "file": "src\\components\\services\\content\\WebviewCrashHandler.js",
         "id": "service.crashHandler.autoReload",
         "start": {
           "column": 14,
@@ -1750,7 +1763,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.reload",
         "start": {
           "column": 10,
@@ -1763,7 +1776,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.edit",
         "start": {
           "column": 8,
@@ -1776,7 +1789,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.disableNotifications",
         "start": {
           "column": 24,
@@ -1789,7 +1802,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.enableNotification",
         "start": {
           "column": 23,
@@ -1802,7 +1815,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.disableAudio",
         "start": {
           "column": 16,
@@ -1815,7 +1828,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.enableAudio",
         "start": {
           "column": 15,
@@ -1828,7 +1841,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.disableService",
         "start": {
           "column": 18,
@@ -1841,7 +1854,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.enableService",
         "start": {
           "column": 17,
@@ -1854,7 +1867,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/services/tabs/TabItem.js",
+        "file": "src\\components\\services\\tabs\\TabItem.js",
         "id": "tabs.item.deleteService",
         "start": {
           "column": 17,
@@ -1872,7 +1885,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.headline",
         "start": {
           "column": 12,
@@ -1885,7 +1898,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.headlineSubscription",
         "start": {
           "column": 24,
@@ -1898,7 +1911,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.headlineDangerZone",
         "start": {
           "column": 22,
@@ -1911,7 +1924,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.manageSubscription.label",
         "start": {
           "column": 33,
@@ -1924,7 +1937,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.upgradeToPro.label",
         "start": {
           "column": 23,
@@ -1937,7 +1950,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.accountType.basic",
         "start": {
           "column": 20,
@@ -1950,7 +1963,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.accountType.premium",
         "start": {
           "column": 22,
@@ -1963,7 +1976,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.account.editButton",
         "start": {
           "column": 21,
@@ -1976,7 +1989,7 @@
           "column": 3,
           "line": 52
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.headlineInvoices",
         "start": {
           "column": 18,
@@ -1989,7 +2002,7 @@
           "column": 3,
           "line": 56
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.invoiceDownload",
         "start": {
           "column": 19,
@@ -2002,7 +2015,7 @@
           "column": 3,
           "line": 60
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.userInfoRequestFailed",
         "start": {
           "column": 25,
@@ -2015,7 +2028,7 @@
           "column": 3,
           "line": 64
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.tryReloadUserInfoRequest",
         "start": {
           "column": 28,
@@ -2028,7 +2041,7 @@
           "column": 3,
           "line": 68
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.deleteAccount",
         "start": {
           "column": 17,
@@ -2041,7 +2054,7 @@
           "column": 3,
           "line": 73
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.deleteInfo",
         "start": {
           "column": 14,
@@ -2054,7 +2067,7 @@
           "column": 3,
           "line": 78
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.deleteEmailSent",
         "start": {
           "column": 19,
@@ -2067,7 +2080,7 @@
           "column": 3,
           "line": 82
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.trial",
         "start": {
           "column": 9,
@@ -2080,7 +2093,7 @@
           "column": 3,
           "line": 86
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.yourLicense",
         "start": {
           "column": 15,
@@ -2093,7 +2106,7 @@
           "column": 3,
           "line": 90
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.trialEndsIn",
         "start": {
           "column": 15,
@@ -2106,7 +2119,7 @@
           "column": 3,
           "line": 95
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.trialUpdateBillingInfo",
         "start": {
           "column": 33,
@@ -2119,7 +2132,7 @@
           "column": 3,
           "line": 99
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.accountUnavailable",
         "start": {
           "column": 22,
@@ -2132,7 +2145,7 @@
           "column": 3,
           "line": 103
         },
-        "file": "src/components/settings/account/AccountDashboard.js",
+        "file": "src\\components\\settings\\account\\AccountDashboard.js",
         "id": "settings.account.accountUnavailableInfo",
         "start": {
           "column": 26,
@@ -2150,7 +2163,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.availableServices",
         "start": {
           "column": 21,
@@ -2163,7 +2176,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.yourServices",
         "start": {
           "column": 16,
@@ -2176,7 +2189,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.yourWorkspaces",
         "start": {
           "column": 18,
@@ -2189,7 +2202,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.account",
         "start": {
           "column": 11,
@@ -2202,7 +2215,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.team",
         "start": {
           "column": 8,
@@ -2215,7 +2228,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.settings",
         "start": {
           "column": 12,
@@ -2228,7 +2241,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.supportFerdi",
         "start": {
           "column": 16,
@@ -2241,7 +2254,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/components/settings/navigation/SettingsNavigation.js",
+        "file": "src\\components\\settings\\navigation\\SettingsNavigation.js",
         "id": "settings.navigation.logout",
         "start": {
           "column": 10,
@@ -2259,7 +2272,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.headline",
         "start": {
           "column": 12,
@@ -2272,7 +2285,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.searchService",
         "start": {
           "column": 17,
@@ -2285,7 +2298,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.mostPopular",
         "start": {
           "column": 22,
@@ -2298,7 +2311,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.all",
         "start": {
           "column": 14,
@@ -2311,7 +2324,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.custom",
         "start": {
           "column": 17,
@@ -2324,7 +2337,7 @@
           "column": 3,
           "line": 43
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.nothingFound",
         "start": {
           "column": 16,
@@ -2337,7 +2350,7 @@
           "column": 3,
           "line": 47
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.servicesSuccessfulAddedInfo",
         "start": {
           "column": 31,
@@ -2350,7 +2363,7 @@
           "column": 3,
           "line": 51
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.missingService",
         "start": {
           "column": 18,
@@ -2363,7 +2376,7 @@
           "column": 3,
           "line": 55
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.intro",
         "start": {
           "column": 21,
@@ -2376,7 +2389,7 @@
           "column": 3,
           "line": 59
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.openFolder",
         "start": {
           "column": 14,
@@ -2389,7 +2402,7 @@
           "column": 3,
           "line": 63
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.openDevDocs",
         "start": {
           "column": 15,
@@ -2402,7 +2415,7 @@
           "column": 3,
           "line": 67
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.headline.customRecipes",
         "start": {
           "column": 25,
@@ -2415,7 +2428,7 @@
           "column": 3,
           "line": 71
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.headline.communityRecipes",
         "start": {
           "column": 28,
@@ -2428,7 +2441,7 @@
           "column": 3,
           "line": 75
         },
-        "file": "src/components/settings/recipes/RecipesDashboard.js",
+        "file": "src\\components\\settings\\recipes\\RecipesDashboard.js",
         "id": "settings.recipes.customService.headline.devRecipes",
         "start": {
           "column": 22,
@@ -2446,7 +2459,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.saveButton",
         "start": {
           "column": 15,
@@ -2459,7 +2472,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.deleteButton",
         "start": {
           "column": 17,
@@ -2472,7 +2485,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.openDarkmodeCss",
         "start": {
           "column": 19,
@@ -2485,7 +2498,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.openUserCss",
         "start": {
           "column": 15,
@@ -2498,7 +2511,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.openUserJs",
         "start": {
           "column": 14,
@@ -2511,7 +2524,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.recipeFileInfo",
         "start": {
           "column": 18,
@@ -2524,7 +2537,7 @@
           "column": 3,
           "line": 52
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.availableServices",
         "start": {
           "column": 21,
@@ -2537,7 +2550,7 @@
           "column": 3,
           "line": 56
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.yourServices",
         "start": {
           "column": 16,
@@ -2550,7 +2563,7 @@
           "column": 3,
           "line": 60
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.addServiceHeadline",
         "start": {
           "column": 22,
@@ -2563,7 +2576,7 @@
           "column": 3,
           "line": 64
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.editServiceHeadline",
         "start": {
           "column": 23,
@@ -2576,7 +2589,7 @@
           "column": 3,
           "line": 68
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.tabHosted",
         "start": {
           "column": 13,
@@ -2589,7 +2602,7 @@
           "column": 3,
           "line": 72
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.tabOnPremise",
         "start": {
           "column": 16,
@@ -2602,7 +2615,7 @@
           "column": 3,
           "line": 76
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.useHostedService",
         "start": {
           "column": 20,
@@ -2615,7 +2628,7 @@
           "column": 3,
           "line": 80
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.customUrlValidationError",
         "start": {
           "column": 28,
@@ -2628,7 +2641,7 @@
           "column": 3,
           "line": 84
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.customUrlPremiumInfo",
         "start": {
           "column": 24,
@@ -2641,7 +2654,7 @@
           "column": 3,
           "line": 88
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.customUrlUpgradeAccount",
         "start": {
           "column": 27,
@@ -2654,7 +2667,7 @@
           "column": 3,
           "line": 92
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.indirectMessageInfo",
         "start": {
           "column": 23,
@@ -2667,7 +2680,7 @@
           "column": 3,
           "line": 96
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.isMutedInfo",
         "start": {
           "column": 15,
@@ -2680,7 +2693,7 @@
           "column": 3,
           "line": 100
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.disableHibernationInfo",
         "start": {
           "column": 26,
@@ -2693,7 +2706,7 @@
           "column": 3,
           "line": 104
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.headlineNotifications",
         "start": {
           "column": 25,
@@ -2706,7 +2719,7 @@
           "column": 3,
           "line": 108
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.headlineBadges",
         "start": {
           "column": 18,
@@ -2719,7 +2732,7 @@
           "column": 3,
           "line": 112
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.headlineGeneral",
         "start": {
           "column": 19,
@@ -2732,7 +2745,7 @@
           "column": 3,
           "line": 116
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.headlineDarkReaderSettings",
         "start": {
           "column": 30,
@@ -2745,7 +2758,7 @@
           "column": 3,
           "line": 120
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.iconDelete",
         "start": {
           "column": 14,
@@ -2758,7 +2771,7 @@
           "column": 3,
           "line": 124
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.iconUpload",
         "start": {
           "column": 14,
@@ -2771,7 +2784,7 @@
           "column": 3,
           "line": 128
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.proxy.headline",
         "start": {
           "column": 17,
@@ -2784,7 +2797,7 @@
           "column": 3,
           "line": 132
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.proxy.restartInfo",
         "start": {
           "column": 20,
@@ -2797,7 +2810,7 @@
           "column": 3,
           "line": 136
         },
-        "file": "src/components/settings/services/EditServiceForm.js",
+        "file": "src\\components\\settings\\services\\EditServiceForm.js",
         "id": "settings.service.form.proxy.info",
         "start": {
           "column": 13,
@@ -2815,7 +2828,7 @@
           "column": 3,
           "line": 13
         },
-        "file": "src/components/settings/services/ServiceError.js",
+        "file": "src\\components\\settings\\services\\ServiceError.js",
         "id": "settings.service.error.headline",
         "start": {
           "column": 12,
@@ -2828,7 +2841,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/components/settings/services/ServiceError.js",
+        "file": "src\\components\\settings\\services\\ServiceError.js",
         "id": "settings.service.error.goBack",
         "start": {
           "column": 10,
@@ -2841,7 +2854,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/components/settings/services/ServiceError.js",
+        "file": "src\\components\\settings\\services\\ServiceError.js",
         "id": "settings.service.form.availableServices",
         "start": {
           "column": 21,
@@ -2854,7 +2867,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/settings/services/ServiceError.js",
+        "file": "src\\components\\settings\\services\\ServiceError.js",
         "id": "settings.service.error.message",
         "start": {
           "column": 16,
@@ -2872,7 +2885,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/settings/services/ServiceItem.js",
+        "file": "src\\components\\settings\\services\\ServiceItem.js",
         "id": "settings.services.tooltip.isDisabled",
         "start": {
           "column": 21,
@@ -2885,7 +2898,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/settings/services/ServiceItem.js",
+        "file": "src\\components\\settings\\services\\ServiceItem.js",
         "id": "settings.services.tooltip.notificationsDisabled",
         "start": {
           "column": 32,
@@ -2898,7 +2911,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/settings/services/ServiceItem.js",
+        "file": "src\\components\\settings\\services\\ServiceItem.js",
         "id": "settings.services.tooltip.isMuted",
         "start": {
           "column": 18,
@@ -2916,7 +2929,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.headline",
         "start": {
           "column": 12,
@@ -2929,7 +2942,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.searchService",
         "start": {
           "column": 17,
@@ -2942,7 +2955,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.noServicesAdded",
         "start": {
           "column": 19,
@@ -2955,7 +2968,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.recipes.nothingFound",
         "start": {
           "column": 18,
@@ -2968,7 +2981,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.discoverServices",
         "start": {
           "column": 20,
@@ -2981,7 +2994,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.servicesRequestFailed",
         "start": {
           "column": 25,
@@ -2994,7 +3007,7 @@
           "column": 3,
           "line": 42
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.account.tryReloadServices",
         "start": {
           "column": 21,
@@ -3007,7 +3020,7 @@
           "column": 3,
           "line": 46
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.updatedInfo",
         "start": {
           "column": 15,
@@ -3020,7 +3033,7 @@
           "column": 3,
           "line": 50
         },
-        "file": "src/components/settings/services/ServicesDashboard.js",
+        "file": "src\\components\\settings\\services\\ServicesDashboard.js",
         "id": "settings.services.deletedInfo",
         "start": {
           "column": 15,
@@ -3038,7 +3051,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headline",
         "start": {
           "column": 12,
@@ -3051,7 +3064,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headlineGeneral",
         "start": {
           "column": 19,
@@ -3064,7 +3077,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.sentryInfo",
         "start": {
           "column": 14,
@@ -3077,7 +3090,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.hibernateInfo",
         "start": {
           "column": 17,
@@ -3090,7 +3103,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.inactivityLockInfo",
         "start": {
           "column": 22,
@@ -3103,7 +3116,7 @@
           "column": 3,
           "line": 45
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.todoServerInfo",
         "start": {
           "column": 18,
@@ -3116,7 +3129,7 @@
           "column": 3,
           "line": 49
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.lockedPassword",
         "start": {
           "column": 18,
@@ -3129,7 +3142,7 @@
           "column": 3,
           "line": 53
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.lockedPasswordInfo",
         "start": {
           "column": 22,
@@ -3142,7 +3155,7 @@
           "column": 3,
           "line": 57
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.lockInfo",
         "start": {
           "column": 12,
@@ -3155,7 +3168,7 @@
           "column": 3,
           "line": 61
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.scheduledDNDTimeInfo",
         "start": {
           "column": 24,
@@ -3168,7 +3181,7 @@
           "column": 3,
           "line": 65
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.scheduledDNDInfo",
         "start": {
           "column": 20,
@@ -3181,7 +3194,7 @@
           "column": 3,
           "line": 69
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headlineLanguage",
         "start": {
           "column": 20,
@@ -3194,7 +3207,7 @@
           "column": 3,
           "line": 73
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headlineUpdates",
         "start": {
           "column": 19,
@@ -3207,7 +3220,7 @@
           "column": 3,
           "line": 77
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headlineAppearance",
         "start": {
           "column": 22,
@@ -3220,7 +3233,7 @@
           "column": 3,
           "line": 81
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.universalDarkModeInfo",
         "start": {
           "column": 25,
@@ -3233,7 +3246,7 @@
           "column": 3,
           "line": 85
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.accentColorInfo",
         "start": {
           "column": 19,
@@ -3246,7 +3259,7 @@
           "column": 3,
           "line": 89
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.headlineAdvanced",
         "start": {
           "column": 20,
@@ -3259,7 +3272,7 @@
           "column": 3,
           "line": 93
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.translationHelp",
         "start": {
           "column": 19,
@@ -3272,7 +3285,7 @@
           "column": 3,
           "line": 97
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.subheadlineCache",
         "start": {
           "column": 20,
@@ -3285,7 +3298,7 @@
           "column": 3,
           "line": 101
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.cacheInfo",
         "start": {
           "column": 13,
@@ -3298,7 +3311,7 @@
           "column": 3,
           "line": 105
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.cacheNotCleared",
         "start": {
           "column": 19,
@@ -3311,7 +3324,7 @@
           "column": 3,
           "line": 109
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.buttonClearAllCache",
         "start": {
           "column": 23,
@@ -3324,7 +3337,7 @@
           "column": 3,
           "line": 113
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.buttonSearchForUpdate",
         "start": {
           "column": 25,
@@ -3337,7 +3350,7 @@
           "column": 3,
           "line": 117
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.buttonInstallUpdate",
         "start": {
           "column": 23,
@@ -3350,7 +3363,7 @@
           "column": 3,
           "line": 121
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.updateStatusSearching",
         "start": {
           "column": 25,
@@ -3363,7 +3376,7 @@
           "column": 3,
           "line": 125
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.updateStatusAvailable",
         "start": {
           "column": 25,
@@ -3376,7 +3389,7 @@
           "column": 3,
           "line": 129
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.updateStatusUpToDate",
         "start": {
           "column": 24,
@@ -3389,7 +3402,7 @@
           "column": 3,
           "line": 133
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.currentVersion",
         "start": {
           "column": 18,
@@ -3402,7 +3415,7 @@
           "column": 3,
           "line": 137
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.restartRequired",
         "start": {
           "column": 29,
@@ -3415,7 +3428,7 @@
           "column": 3,
           "line": 141
         },
-        "file": "src/components/settings/settings/EditSettingsForm.js",
+        "file": "src\\components\\settings\\settings\\EditSettingsForm.js",
         "id": "settings.app.languageDisclaimer",
         "start": {
           "column": 22,
@@ -3433,7 +3446,7 @@
           "column": 3,
           "line": 11
         },
-        "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+        "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
         "id": "settings.supportFerdi.headline",
         "start": {
           "column": 12,
@@ -3446,7 +3459,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+        "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
         "id": "settings.supportFerdi.title",
         "start": {
           "column": 9,
@@ -3459,7 +3472,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+        "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
         "id": "settings.supportFerdi.github",
         "start": {
           "column": 10,
@@ -3472,7 +3485,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+        "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
         "id": "settings.supportFerdi.share",
         "start": {
           "column": 9,
@@ -3485,7 +3498,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/components/settings/supportFerdi/SupportFerdiDashboard.js",
+        "file": "src\\components\\settings\\supportFerdi\\SupportFerdiDashboard.js",
         "id": "settings.supportFerdi.openCollective",
         "start": {
           "column": 18,
@@ -3503,7 +3516,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.headline",
         "start": {
           "column": 12,
@@ -3516,7 +3529,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.contentHeadline",
         "start": {
           "column": 19,
@@ -3529,7 +3542,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.intro",
         "start": {
           "column": 9,
@@ -3542,7 +3555,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.copy",
         "start": {
           "column": 8,
@@ -3555,7 +3568,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.manageAction",
         "start": {
           "column": 16,
@@ -3568,7 +3581,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.upgradeAction",
         "start": {
           "column": 17,
@@ -3581,7 +3594,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.teamsUnavailable",
         "start": {
           "column": 20,
@@ -3594,7 +3607,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/components/settings/team/TeamDashboard.js",
+        "file": "src\\components\\settings\\team\\TeamDashboard.js",
         "id": "settings.team.teamsUnavailableInfo",
         "start": {
           "column": 24,
@@ -3612,7 +3625,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.headline",
         "start": {
           "column": 12,
@@ -3625,7 +3638,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.headlineProfile",
         "start": {
           "column": 19,
@@ -3638,7 +3651,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.headlineAccount",
         "start": {
           "column": 19,
@@ -3651,7 +3664,7 @@
           "column": 3,
           "line": 30
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.headlinePassword",
         "start": {
           "column": 20,
@@ -3664,7 +3677,7 @@
           "column": 3,
           "line": 34
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.successInfo",
         "start": {
           "column": 15,
@@ -3677,7 +3690,7 @@
           "column": 3,
           "line": 38
         },
-        "file": "src/components/settings/user/EditUserForm.js",
+        "file": "src\\components\\settings\\user\\EditUserForm.js",
         "id": "settings.account.buttonSave",
         "start": {
           "column": 14,
@@ -3695,7 +3708,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/components/subscription/SubscriptionForm.js",
+        "file": "src\\components\\subscription\\SubscriptionForm.js",
         "id": "subscription.cta.choosePlan",
         "start": {
           "column": 21,
@@ -3708,7 +3721,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/subscription/SubscriptionForm.js",
+        "file": "src\\components\\subscription\\SubscriptionForm.js",
         "id": "settings.account.headlineUpgradeAccount",
         "start": {
           "column": 18,
@@ -3721,7 +3734,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/subscription/SubscriptionForm.js",
+        "file": "src\\components\\subscription\\SubscriptionForm.js",
         "id": "subscription.teaser.intro",
         "start": {
           "column": 14,
@@ -3734,7 +3747,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/subscription/SubscriptionForm.js",
+        "file": "src\\components\\subscription\\SubscriptionForm.js",
         "id": "subscription.teaser.includedFeatures",
         "start": {
           "column": 20,
@@ -3752,7 +3765,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/subscription/SubscriptionPopup.js",
+        "file": "src\\components\\subscription\\SubscriptionPopup.js",
         "id": "subscriptionPopup.buttonCancel",
         "start": {
           "column": 16,
@@ -3765,7 +3778,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/subscription/SubscriptionPopup.js",
+        "file": "src\\components\\subscription\\SubscriptionPopup.js",
         "id": "subscriptionPopup.buttonDone",
         "start": {
           "column": 14,
@@ -3783,7 +3796,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "subscription.cta.activateTrial",
         "start": {
           "column": 21,
@@ -3796,7 +3809,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "subscription.cta.allOptions",
         "start": {
           "column": 20,
@@ -3809,7 +3822,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "settings.account.headlineTrialUpgrade",
         "start": {
           "column": 18,
@@ -3822,7 +3835,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "subscription.includedProFeatures",
         "start": {
           "column": 20,
@@ -3835,7 +3848,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "pricing.trial.terms.headline",
         "start": {
           "column": 29,
@@ -3848,7 +3861,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "pricing.trial.terms.noCreditCard",
         "start": {
           "column": 16,
@@ -3861,7 +3874,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/components/subscription/TrialForm.js",
+        "file": "src\\components\\subscription\\TrialForm.js",
         "id": "pricing.trial.terms.automaticTrialEnd",
         "start": {
           "column": 21,
@@ -3879,7 +3892,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/TrialActivationInfoBar.js",
+        "file": "src\\components\\TrialActivationInfoBar.js",
         "id": "infobar.trialActivated",
         "start": {
           "column": 11,
@@ -3897,7 +3910,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "feature.delayApp.upgrade.action",
         "start": {
           "column": 10,
@@ -3910,7 +3923,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "feature.delayApp.trial.action",
         "start": {
           "column": 15,
@@ -3923,7 +3936,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "feature.delayApp.upgrade.actionShort",
         "start": {
           "column": 15,
@@ -3936,7 +3949,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "feature.delayApp.trial.actionShort",
         "start": {
           "column": 20,
@@ -3949,7 +3962,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "pricing.trial.terms.headline",
         "start": {
           "column": 29,
@@ -3962,7 +3975,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "pricing.trial.terms.noCreditCard",
         "start": {
           "column": 16,
@@ -3975,7 +3988,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/components/ui/ActivateTrialButton/index.js",
+        "file": "src\\components\\ui\\ActivateTrialButton\\index.js",
         "id": "pricing.trial.terms.automaticTrialEnd",
         "start": {
           "column": 21,
@@ -3993,7 +4006,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.recipes",
         "start": {
           "column": 20,
@@ -4006,7 +4019,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.accountSync",
         "start": {
           "column": 15,
@@ -4019,7 +4032,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.desktopNotifications",
         "start": {
           "column": 24,
@@ -4032,7 +4045,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.unlimitedServices",
         "start": {
           "column": 21,
@@ -4045,7 +4058,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.upToThreeServices",
         "start": {
           "column": 21,
@@ -4058,7 +4071,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.upToSixServices",
         "start": {
           "column": 19,
@@ -4071,7 +4084,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.spellchecker",
         "start": {
           "column": 16,
@@ -4084,7 +4097,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.workspaces",
         "start": {
           "column": 14,
@@ -4097,7 +4110,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.customWebsites",
         "start": {
           "column": 18,
@@ -4110,7 +4123,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.onPremise",
         "start": {
           "column": 13,
@@ -4123,7 +4136,7 @@
           "column": 3,
           "line": 52
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.thirdPartyServices",
         "start": {
           "column": 22,
@@ -4136,7 +4149,7 @@
           "column": 3,
           "line": 56
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.serviceProxies",
         "start": {
           "column": 18,
@@ -4149,7 +4162,7 @@
           "column": 3,
           "line": 60
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.teamManagement",
         "start": {
           "column": 18,
@@ -4162,7 +4175,7 @@
           "column": 3,
           "line": 64
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.appDelays",
         "start": {
           "column": 13,
@@ -4175,7 +4188,7 @@
           "column": 3,
           "line": 68
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.adFree",
         "start": {
           "column": 10,
@@ -4188,7 +4201,7 @@
           "column": 3,
           "line": 72
         },
-        "file": "src/components/ui/FeatureList.js",
+        "file": "src\\components\\ui\\FeatureList.js",
         "id": "pricing.features.appDelaysEnabled",
         "start": {
           "column": 19,
@@ -4206,7 +4219,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/ui/PremiumFeatureContainer/index.js",
+        "file": "src\\components\\ui\\PremiumFeatureContainer\\index.js",
         "id": "premiumFeature.button.upgradeAccount",
         "start": {
           "column": 10,
@@ -4224,7 +4237,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/components/ui/UpgradeButton/index.js",
+        "file": "src\\components\\ui\\UpgradeButton\\index.js",
         "id": "global.upgradeButton.upgradeToPro",
         "start": {
           "column": 16,
@@ -4242,7 +4255,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/ui/WebviewLoader/index.js",
+        "file": "src\\components\\ui\\WebviewLoader\\index.js",
         "id": "service.webviewLoader.loading",
         "start": {
           "column": 11,
@@ -4260,7 +4273,7 @@
           "column": 3,
           "line": 14
         },
-        "file": "src/components/util/ErrorBoundary/index.js",
+        "file": "src\\components\\util\\ErrorBoundary\\index.js",
         "id": "app.errorHandler.headline",
         "start": {
           "column": 12,
@@ -4273,7 +4286,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/components/util/ErrorBoundary/index.js",
+        "file": "src\\components\\util\\ErrorBoundary\\index.js",
         "id": "app.errorHandler.action",
         "start": {
           "column": 10,
@@ -4291,7 +4304,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.name",
         "start": {
           "column": 8,
@@ -4304,7 +4317,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.enableService",
         "start": {
           "column": 17,
@@ -4317,7 +4330,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.disableHibernation",
         "start": {
           "column": 22,
@@ -4330,7 +4343,7 @@
           "column": 3,
           "line": 43
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.enableNotification",
         "start": {
           "column": 22,
@@ -4343,7 +4356,7 @@
           "column": 3,
           "line": 47
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.enableBadge",
         "start": {
           "column": 15,
@@ -4356,7 +4369,7 @@
           "column": 3,
           "line": 51
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.enableAudio",
         "start": {
           "column": 15,
@@ -4369,7 +4382,7 @@
           "column": 3,
           "line": 55
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.team",
         "start": {
           "column": 8,
@@ -4382,7 +4395,7 @@
           "column": 3,
           "line": 59
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.customUrl",
         "start": {
           "column": 13,
@@ -4395,7 +4408,7 @@
           "column": 3,
           "line": 63
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.indirectMessages",
         "start": {
           "column": 20,
@@ -4408,7 +4421,7 @@
           "column": 3,
           "line": 67
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.icon",
         "start": {
           "column": 8,
@@ -4421,7 +4434,7 @@
           "column": 3,
           "line": 71
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.enableDarkMode",
         "start": {
           "column": 18,
@@ -4434,7 +4447,7 @@
           "column": 3,
           "line": 75
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.darkReaderBrightness",
         "start": {
           "column": 24,
@@ -4447,7 +4460,7 @@
           "column": 3,
           "line": 79
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.darkReaderContrast",
         "start": {
           "column": 22,
@@ -4460,7 +4473,7 @@
           "column": 3,
           "line": 83
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.darkReaderSepia",
         "start": {
           "column": 19,
@@ -4473,7 +4486,7 @@
           "column": 3,
           "line": 87
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.proxy.isEnabled",
         "start": {
           "column": 15,
@@ -4486,7 +4499,7 @@
           "column": 3,
           "line": 91
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.proxy.host",
         "start": {
           "column": 13,
@@ -4499,7 +4512,7 @@
           "column": 3,
           "line": 95
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.proxy.port",
         "start": {
           "column": 13,
@@ -4512,7 +4525,7 @@
           "column": 3,
           "line": 99
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.proxy.user",
         "start": {
           "column": 13,
@@ -4525,7 +4538,7 @@
           "column": 3,
           "line": 103
         },
-        "file": "src/containers/settings/EditServiceScreen.js",
+        "file": "src\\containers\\settings\\EditServiceScreen.js",
         "id": "settings.service.form.proxy.password",
         "start": {
           "column": 17,
@@ -4543,7 +4556,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.autoLaunchOnStart",
         "start": {
           "column": 21,
@@ -4556,7 +4569,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.autoLaunchInBackground",
         "start": {
           "column": 26,
@@ -4569,7 +4582,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.runInBackground",
         "start": {
           "column": 19,
@@ -4582,7 +4595,7 @@
           "column": 3,
           "line": 45
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.startMinimized",
         "start": {
           "column": 18,
@@ -4595,7 +4608,7 @@
           "column": 3,
           "line": 49
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.enableSystemTray",
         "start": {
           "column": 20,
@@ -4608,7 +4621,7 @@
           "column": 3,
           "line": 53
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.reloadAfterResume",
         "start": {
           "column": 21,
@@ -4621,7 +4634,7 @@
           "column": 3,
           "line": 57
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.minimizeToSystemTray",
         "start": {
           "column": 24,
@@ -4634,7 +4647,7 @@
           "column": 3,
           "line": 61
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.privateNotifications",
         "start": {
           "column": 24,
@@ -4647,7 +4660,7 @@
           "column": 3,
           "line": 65
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.navigationBarBehaviour",
         "start": {
           "column": 26,
@@ -4660,7 +4673,7 @@
           "column": 3,
           "line": 69
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.sentry",
         "start": {
           "column": 10,
@@ -4673,7 +4686,7 @@
           "column": 3,
           "line": 73
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.hibernate",
         "start": {
           "column": 13,
@@ -4686,7 +4699,7 @@
           "column": 3,
           "line": 77
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.hibernateOnStartup",
         "start": {
           "column": 22,
@@ -4699,7 +4712,7 @@
           "column": 3,
           "line": 81
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.hibernationStrategy",
         "start": {
           "column": 23,
@@ -4712,7 +4725,7 @@
           "column": 3,
           "line": 85
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.predefinedTodoServer",
         "start": {
           "column": 24,
@@ -4725,7 +4738,7 @@
           "column": 3,
           "line": 89
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.customTodoServer",
         "start": {
           "column": 20,
@@ -4738,7 +4751,7 @@
           "column": 3,
           "line": 93
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.enableLock",
         "start": {
           "column": 14,
@@ -4751,7 +4764,7 @@
           "column": 3,
           "line": 97
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.lockPassword",
         "start": {
           "column": 16,
@@ -4764,7 +4777,7 @@
           "column": 3,
           "line": 101
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.useTouchIdToUnlock",
         "start": {
           "column": 22,
@@ -4777,7 +4790,7 @@
           "column": 3,
           "line": 105
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.inactivityLock",
         "start": {
           "column": 18,
@@ -4790,7 +4803,7 @@
           "column": 3,
           "line": 109
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.scheduledDNDEnabled",
         "start": {
           "column": 23,
@@ -4803,7 +4816,7 @@
           "column": 3,
           "line": 113
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.scheduledDNDStart",
         "start": {
           "column": 21,
@@ -4816,7 +4829,7 @@
           "column": 3,
           "line": 117
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.scheduledDNDEnd",
         "start": {
           "column": 19,
@@ -4829,7 +4842,7 @@
           "column": 3,
           "line": 121
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.language",
         "start": {
           "column": 12,
@@ -4842,7 +4855,7 @@
           "column": 3,
           "line": 125
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.darkMode",
         "start": {
           "column": 12,
@@ -4855,7 +4868,7 @@
           "column": 3,
           "line": 129
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.adaptableDarkMode",
         "start": {
           "column": 21,
@@ -4868,7 +4881,7 @@
           "column": 3,
           "line": 133
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.universalDarkMode",
         "start": {
           "column": 21,
@@ -4881,7 +4894,7 @@
           "column": 3,
           "line": 137
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.serviceRibbonWidth",
         "start": {
           "column": 22,
@@ -4894,7 +4907,7 @@
           "column": 3,
           "line": 141
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.iconSize",
         "start": {
           "column": 12,
@@ -4907,7 +4920,7 @@
           "column": 3,
           "line": 145
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.accentColor",
         "start": {
           "column": 15,
@@ -4920,7 +4933,7 @@
           "column": 3,
           "line": 149
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.showDisabledServices",
         "start": {
           "column": 24,
@@ -4933,7 +4946,7 @@
           "column": 3,
           "line": 153
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.showMessagesBadgesWhenMuted",
         "start": {
           "column": 29,
@@ -4946,7 +4959,7 @@
           "column": 3,
           "line": 157
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.showDragArea",
         "start": {
           "column": 16,
@@ -4959,7 +4972,7 @@
           "column": 3,
           "line": 161
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.enableSpellchecking",
         "start": {
           "column": 23,
@@ -4972,7 +4985,7 @@
           "column": 3,
           "line": 165
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.enableGPUAcceleration",
         "start": {
           "column": 25,
@@ -4985,7 +4998,7 @@
           "column": 3,
           "line": 169
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.beta",
         "start": {
           "column": 8,
@@ -4998,7 +5011,7 @@
           "column": 3,
           "line": 173
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.automaticUpdates",
         "start": {
           "column": 20,
@@ -5011,7 +5024,7 @@
           "column": 3,
           "line": 177
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.enableTodos",
         "start": {
           "column": 15,
@@ -5024,7 +5037,7 @@
           "column": 3,
           "line": 181
         },
-        "file": "src/containers/settings/EditSettingsScreen.js",
+        "file": "src\\containers\\settings\\EditSettingsScreen.js",
         "id": "settings.app.form.keepAllWorkspacesLoaded",
         "start": {
           "column": 27,
@@ -5042,7 +5055,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.firstname",
         "start": {
           "column": 13,
@@ -5055,7 +5068,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.lastname",
         "start": {
           "column": 12,
@@ -5068,7 +5081,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.email",
         "start": {
           "column": 9,
@@ -5081,7 +5094,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.accountType.label",
         "start": {
           "column": 20,
@@ -5094,7 +5107,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.accountType.individual",
         "start": {
           "column": 25,
@@ -5107,7 +5120,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.accountType.non-profit",
         "start": {
           "column": 24,
@@ -5120,7 +5133,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.accountType.company",
         "start": {
           "column": 22,
@@ -5133,7 +5146,7 @@
           "column": 3,
           "line": 45
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.currentPassword",
         "start": {
           "column": 19,
@@ -5146,7 +5159,7 @@
           "column": 3,
           "line": 49
         },
-        "file": "src/containers/settings/EditUserScreen.js",
+        "file": "src\\containers\\settings\\EditUserScreen.js",
         "id": "settings.user.form.newPassword",
         "start": {
           "column": 15,
@@ -5164,7 +5177,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/features/announcements/components/AnnouncementScreen.js",
+        "file": "src\\features\\announcements\\components\\AnnouncementScreen.js",
         "id": "feature.announcements.changelog.headline",
         "start": {
           "column": 12,
@@ -5200,7 +5213,7 @@
           "column": 3,
           "line": 17
         },
-        "file": "src/features/delayApp/Component.js",
+        "file": "src\\features\\delayApp\\Component.js",
         "id": "feature.delayApp.headline",
         "start": {
           "column": 12,
@@ -5213,7 +5226,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/features/delayApp/Component.js",
+        "file": "src\\features\\delayApp\\Component.js",
         "id": "feature.delayApp.trial.headline",
         "start": {
           "column": 17,
@@ -5226,7 +5239,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/features/delayApp/Component.js",
+        "file": "src\\features\\delayApp\\Component.js",
         "id": "feature.delayApp.upgrade.action",
         "start": {
           "column": 10,
@@ -5239,7 +5252,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/features/delayApp/Component.js",
+        "file": "src\\features\\delayApp\\Component.js",
         "id": "feature.delayApp.trial.action",
         "start": {
           "column": 15,
@@ -5252,7 +5265,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/features/delayApp/Component.js",
+        "file": "src\\features\\delayApp\\Component.js",
         "id": "feature.delayApp.text",
         "start": {
           "column": 8,
@@ -5270,7 +5283,7 @@
           "column": 3,
           "line": 18
         },
-        "file": "src/features/planSelection/components/PlanItem.js",
+        "file": "src\\features\\planSelection\\components\\PlanItem.js",
         "id": "subscription.interval.perMonth",
         "start": {
           "column": 12,
@@ -5283,7 +5296,7 @@
           "column": 3,
           "line": 22
         },
-        "file": "src/features/planSelection/components/PlanItem.js",
+        "file": "src\\features\\planSelection\\components\\PlanItem.js",
         "id": "subscription.interval.perMonthPerUser",
         "start": {
           "column": 19,
@@ -5296,7 +5309,7 @@
           "column": 3,
           "line": 26
         },
-        "file": "src/features/planSelection/components/PlanItem.js",
+        "file": "src\\features\\planSelection\\components\\PlanItem.js",
         "id": "subscription.bestValue",
         "start": {
           "column": 13,
@@ -5314,7 +5327,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.fullscreen.welcome",
         "start": {
           "column": 11,
@@ -5327,7 +5340,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.fullscreen.subheadline",
         "start": {
           "column": 15,
@@ -5340,7 +5353,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.free.text",
         "start": {
           "column": 12,
@@ -5353,7 +5366,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.personal.text",
         "start": {
           "column": 16,
@@ -5366,7 +5379,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.pro.text",
         "start": {
           "column": 20,
@@ -5379,7 +5392,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.cta.stayOnFree",
         "start": {
           "column": 17,
@@ -5392,7 +5405,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.cta.ctaDowngradeFree",
         "start": {
           "column": 20,
@@ -5405,7 +5418,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.cta.trial",
         "start": {
           "column": 15,
@@ -5418,7 +5431,7 @@
           "column": 3,
           "line": 52
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.cta.upgradePersonal",
         "start": {
           "column": 23,
@@ -5431,7 +5444,7 @@
           "column": 3,
           "line": 56
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.cta.upgradePro",
         "start": {
           "column": 18,
@@ -5444,7 +5457,7 @@
           "column": 3,
           "line": 60
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.fullFeatureList",
         "start": {
           "column": 19,
@@ -5457,7 +5470,7 @@
           "column": 3,
           "line": 64
         },
-        "file": "src/features/planSelection/components/PlanSelection.js",
+        "file": "src\\features\\planSelection\\components\\PlanSelection.js",
         "id": "feature.planSelection.pricesBasedOnAnnualPayment",
         "start": {
           "column": 30,
@@ -5506,7 +5519,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/features/planSelection/containers/PlanSelectionScreen.js",
+        "file": "src\\features\\planSelection\\containers\\PlanSelectionScreen.js",
         "id": "feature.planSelection.fullscreen.dialog.title",
         "start": {
           "column": 15,
@@ -5519,7 +5532,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/features/planSelection/containers/PlanSelectionScreen.js",
+        "file": "src\\features\\planSelection\\containers\\PlanSelectionScreen.js",
         "id": "feature.planSelection.fullscreen.dialog.message",
         "start": {
           "column": 17,
@@ -5532,7 +5545,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/features/planSelection/containers/PlanSelectionScreen.js",
+        "file": "src\\features\\planSelection\\containers\\PlanSelectionScreen.js",
         "id": "feature.planSelection.fullscreen.dialog.cta.downgrade",
         "start": {
           "column": 22,
@@ -5545,7 +5558,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/features/planSelection/containers/PlanSelectionScreen.js",
+        "file": "src\\features\\planSelection\\containers\\PlanSelectionScreen.js",
         "id": "feature.planSelection.fullscreen.dialog.cta.upgrade",
         "start": {
           "column": 20,
@@ -5563,7 +5576,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.title",
         "start": {
           "column": 9,
@@ -5576,7 +5589,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.info",
         "start": {
           "column": 8,
@@ -5589,7 +5602,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.error",
         "start": {
           "column": 9,
@@ -5602,7 +5615,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.privacy",
         "start": {
           "column": 11,
@@ -5615,7 +5628,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.terms",
         "start": {
           "column": 9,
@@ -5628,7 +5641,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.publish",
         "start": {
           "column": 11,
@@ -5641,7 +5654,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/features/publishDebugInfo/Component.js",
+        "file": "src\\features\\publishDebugInfo\\Component.js",
         "id": "feature.publishDebugInfo.published",
         "start": {
           "column": 13,
@@ -5659,7 +5672,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/features/quickSwitch/Component.js",
+        "file": "src\\features\\quickSwitch\\Component.js",
         "id": "feature.quickSwitch.title",
         "start": {
           "column": 9,
@@ -5672,7 +5685,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/features/quickSwitch/Component.js",
+        "file": "src\\features\\quickSwitch\\Component.js",
         "id": "feature.quickSwitch.search",
         "start": {
           "column": 10,
@@ -5685,7 +5698,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/features/quickSwitch/Component.js",
+        "file": "src\\features\\quickSwitch\\Component.js",
         "id": "feature.quickSwitch.info",
         "start": {
           "column": 8,
@@ -5791,7 +5804,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/features/serviceLimit/components/LimitReachedInfobox.js",
+        "file": "src\\features\\serviceLimit\\components\\LimitReachedInfobox.js",
         "id": "feature.serviceLimit.limitReached",
         "start": {
           "column": 16,
@@ -5804,7 +5817,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/features/serviceLimit/components/LimitReachedInfobox.js",
+        "file": "src\\features\\serviceLimit\\components\\LimitReachedInfobox.js",
         "id": "premiumFeature.button.upgradeAccount",
         "start": {
           "column": 10,
@@ -5822,7 +5835,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.headline",
         "start": {
           "column": 12,
@@ -5835,7 +5848,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.text",
         "start": {
           "column": 8,
@@ -5848,7 +5861,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.action.email",
         "start": {
           "column": 16,
@@ -5861,7 +5874,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.action.facebook",
         "start": {
           "column": 19,
@@ -5874,7 +5887,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.action.twitter",
         "start": {
           "column": 18,
@@ -5887,7 +5900,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.shareText.email",
         "start": {
           "column": 18,
@@ -5900,7 +5913,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/features/shareFranz/Component.js",
+        "file": "src\\features\\shareFranz\\Component.js",
         "id": "feature.shareFranz.shareText.twitter",
         "start": {
           "column": 20,
@@ -5916,39 +5929,39 @@
         "defaultMessage": "!!!Franz Todos are available to premium users now!",
         "end": {
           "column": 3,
-          "line": 30
+          "line": 32
         },
-        "file": "src/features/todos/components/TodosWebview.js",
+        "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.info",
         "start": {
           "column": 15,
-          "line": 27
+          "line": 29
         }
       },
       {
         "defaultMessage": "!!!Upgrade Account",
         "end": {
           "column": 3,
-          "line": 34
+          "line": 36
         },
-        "file": "src/features/todos/components/TodosWebview.js",
+        "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.upgrade",
         "start": {
           "column": 14,
-          "line": 31
+          "line": 33
         }
       },
       {
         "defaultMessage": "!!!Everyone else will have to wait a little longer.",
         "end": {
           "column": 3,
-          "line": 38
+          "line": 40
         },
-        "file": "src/features/todos/components/TodosWebview.js",
+        "file": "src\\features\\todos\\components\\TodosWebview.js",
         "id": "feature.todos.premium.rollout",
         "start": {
           "column": 15,
-          "line": 35
+          "line": 37
         }
       }
     ],
@@ -5962,7 +5975,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/features/trialStatusBar/components/TrialStatusBar.js",
+        "file": "src\\features\\trialStatusBar\\components\\TrialStatusBar.js",
         "id": "feature.trialStatusBar.restTime",
         "start": {
           "column": 12,
@@ -5975,7 +5988,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/trialStatusBar/components/TrialStatusBar.js",
+        "file": "src\\features\\trialStatusBar\\components\\TrialStatusBar.js",
         "id": "feature.trialStatusBar.expired",
         "start": {
           "column": 11,
@@ -5988,7 +6001,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/trialStatusBar/components/TrialStatusBar.js",
+        "file": "src\\features\\trialStatusBar\\components\\TrialStatusBar.js",
         "id": "feature.trialStatusBar.cta",
         "start": {
           "column": 7,
@@ -6063,7 +6076,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/features/webControls/components/WebControls.js",
+        "file": "src\\features\\webControls\\components\\WebControls.js",
         "id": "webControls.goHome",
         "start": {
           "column": 10,
@@ -6076,7 +6089,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/webControls/components/WebControls.js",
+        "file": "src\\features\\webControls\\components\\WebControls.js",
         "id": "webControls.openInBrowser",
         "start": {
           "column": 17,
@@ -6089,7 +6102,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/webControls/components/WebControls.js",
+        "file": "src\\features\\webControls\\components\\WebControls.js",
         "id": "webControls.back",
         "start": {
           "column": 8,
@@ -6102,7 +6115,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/features/webControls/components/WebControls.js",
+        "file": "src\\features\\webControls\\components\\WebControls.js",
         "id": "webControls.forward",
         "start": {
           "column": 11,
@@ -6115,7 +6128,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/features/webControls/components/WebControls.js",
+        "file": "src\\features\\webControls\\components\\WebControls.js",
         "id": "webControls.reload",
         "start": {
           "column": 10,
@@ -6133,7 +6146,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/features/workspaces/components/CreateWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\CreateWorkspaceForm.js",
         "id": "settings.workspace.add.form.submitButton",
         "start": {
           "column": 16,
@@ -6146,7 +6159,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/features/workspaces/components/CreateWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\CreateWorkspaceForm.js",
         "id": "settings.workspace.add.form.name",
         "start": {
           "column": 8,
@@ -6164,7 +6177,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.buttonDelete",
         "start": {
           "column": 16,
@@ -6177,7 +6190,7 @@
           "column": 3,
           "line": 28
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.buttonSave",
         "start": {
           "column": 14,
@@ -6190,7 +6203,7 @@
           "column": 3,
           "line": 32
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.name",
         "start": {
           "column": 8,
@@ -6203,7 +6216,7 @@
           "column": 3,
           "line": 36
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.yourWorkspaces",
         "start": {
           "column": 18,
@@ -6216,7 +6229,7 @@
           "column": 3,
           "line": 40
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.keepLoaded",
         "start": {
           "column": 14,
@@ -6229,7 +6242,7 @@
           "column": 3,
           "line": 44
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.keepLoadedInfo",
         "start": {
           "column": 18,
@@ -6242,7 +6255,7 @@
           "column": 3,
           "line": 48
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.workspace.form.servicesInWorkspaceHeadline",
         "start": {
           "column": 31,
@@ -6255,7 +6268,7 @@
           "column": 3,
           "line": 52
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.services.noServicesAdded",
         "start": {
           "column": 19,
@@ -6268,7 +6281,7 @@
           "column": 3,
           "line": 56
         },
-        "file": "src/features/workspaces/components/EditWorkspaceForm.js",
+        "file": "src\\features\\workspaces\\components\\EditWorkspaceForm.js",
         "id": "settings.services.discoverServices",
         "start": {
           "column": 20,
@@ -6286,7 +6299,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.headline",
         "start": {
           "column": 12,
@@ -6299,7 +6312,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.allServices",
         "start": {
           "column": 15,
@@ -6312,7 +6325,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.workspacesSettingsTooltip",
         "start": {
           "column": 29,
@@ -6325,7 +6338,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.workspaceFeatureInfo",
         "start": {
           "column": 24,
@@ -6338,7 +6351,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.premiumCtaButtonLabel",
         "start": {
           "column": 25,
@@ -6351,7 +6364,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.reactivatePremiumAccountLabel",
         "start": {
           "column": 28,
@@ -6364,7 +6377,7 @@
           "column": 3,
           "line": 43
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.addNewWorkspaceLabel",
         "start": {
           "column": 24,
@@ -6377,7 +6390,7 @@
           "column": 3,
           "line": 47
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawer.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawer.js",
         "id": "workspaceDrawer.proFeatureBadge",
         "start": {
           "column": 23,
@@ -6395,7 +6408,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawerItem.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawerItem.js",
         "id": "workspaceDrawer.item.noServicesAddedYet",
         "start": {
           "column": 22,
@@ -6408,7 +6421,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/features/workspaces/components/WorkspaceDrawerItem.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceDrawerItem.js",
         "id": "workspaceDrawer.item.contextMenuEdit",
         "start": {
           "column": 19,
@@ -6426,7 +6439,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.headline",
         "start": {
           "column": 12,
@@ -6439,7 +6452,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.noWorkspacesAdded",
         "start": {
           "column": 19,
@@ -6452,7 +6465,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.workspacesRequestFailed",
         "start": {
           "column": 27,
@@ -6465,7 +6478,7 @@
           "column": 3,
           "line": 35
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.tryReloadWorkspaces",
         "start": {
           "column": 23,
@@ -6478,7 +6491,7 @@
           "column": 3,
           "line": 39
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.updatedInfo",
         "start": {
           "column": 15,
@@ -6491,7 +6504,7 @@
           "column": 3,
           "line": 43
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.deletedInfo",
         "start": {
           "column": 15,
@@ -6504,7 +6517,7 @@
           "column": 3,
           "line": 47
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.workspaceFeatureInfo",
         "start": {
           "column": 24,
@@ -6517,7 +6530,7 @@
           "column": 3,
           "line": 51
         },
-        "file": "src/features/workspaces/components/WorkspacesDashboard.js",
+        "file": "src\\features\\workspaces\\components\\WorkspacesDashboard.js",
         "id": "settings.workspaces.workspaceFeatureHeadline",
         "start": {
           "column": 28,
@@ -6535,7 +6548,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/features/workspaces/components/WorkspaceSwitchingIndicator.js",
+        "file": "src\\features\\workspaces\\components\\WorkspaceSwitchingIndicator.js",
         "id": "workspaces.switchingIndicator.switchingTo",
         "start": {
           "column": 15,
@@ -6553,7 +6566,7 @@
           "column": 3,
           "line": 8
         },
-        "file": "src/helpers/plan-helpers.js",
+        "file": "src\\helpers\\plan-helpers.js",
         "id": "pricing.plan.pro",
         "start": {
           "column": 15,
@@ -6566,7 +6579,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/helpers/plan-helpers.js",
+        "file": "src\\helpers\\plan-helpers.js",
         "id": "pricing.plan.personal",
         "start": {
           "column": 20,
@@ -6579,7 +6592,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/helpers/plan-helpers.js",
+        "file": "src\\helpers\\plan-helpers.js",
         "id": "pricing.plan.free",
         "start": {
           "column": 16,
@@ -6592,7 +6605,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/helpers/plan-helpers.js",
+        "file": "src\\helpers\\plan-helpers.js",
         "id": "pricing.plan.legacy",
         "start": {
           "column": 18,
@@ -6693,7 +6706,7 @@
           "column": 3,
           "line": 8
         },
-        "file": "src/helpers/validation-helpers.js",
+        "file": "src\\helpers\\validation-helpers.js",
         "id": "validation.required",
         "start": {
           "column": 12,
@@ -6706,7 +6719,7 @@
           "column": 3,
           "line": 12
         },
-        "file": "src/helpers/validation-helpers.js",
+        "file": "src\\helpers\\validation-helpers.js",
         "id": "validation.email",
         "start": {
           "column": 9,
@@ -6719,7 +6732,7 @@
           "column": 3,
           "line": 16
         },
-        "file": "src/helpers/validation-helpers.js",
+        "file": "src\\helpers\\validation-helpers.js",
         "id": "validation.url",
         "start": {
           "column": 7,
@@ -6732,7 +6745,7 @@
           "column": 3,
           "line": 20
         },
-        "file": "src/helpers/validation-helpers.js",
+        "file": "src\\helpers\\validation-helpers.js",
         "id": "validation.minLength",
         "start": {
           "column": 13,
@@ -6745,7 +6758,7 @@
           "column": 3,
           "line": 24
         },
-        "file": "src/helpers/validation-helpers.js",
+        "file": "src\\helpers\\validation-helpers.js",
         "id": "validation.oneRequired",
         "start": {
           "column": 15,
@@ -6763,7 +6776,7 @@
           "column": 3,
           "line": 7
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.api.unhealthy",
         "start": {
           "column": 16,
@@ -6776,7 +6789,7 @@
           "column": 3,
           "line": 11
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.notConnectedToTheInternet",
         "start": {
           "column": 29,
@@ -6789,7 +6802,7 @@
           "column": 3,
           "line": 15
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.spellchecking.language",
         "start": {
           "column": 24,
@@ -6802,7 +6815,7 @@
           "column": 3,
           "line": 19
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.spellchecker.useDefault",
         "start": {
           "column": 29,
@@ -6815,7 +6828,7 @@
           "column": 3,
           "line": 23
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.spellchecking.autodetect",
         "start": {
           "column": 34,
@@ -6828,7 +6841,7 @@
           "column": 3,
           "line": 27
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.spellchecking.autodetect.short",
         "start": {
           "column": 39,
@@ -6841,7 +6854,7 @@
           "column": 3,
           "line": 31
         },
-        "file": "src/i18n/globalMessages.js",
+        "file": "src\\i18n\\globalMessages.js",
         "id": "global.franzProRequired",
         "start": {
           "column": 15,
@@ -6859,7 +6872,7 @@
           "column": 3,
           "line": 21
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit",
         "start": {
           "column": 8,
@@ -6872,7 +6885,7 @@
           "column": 3,
           "line": 25
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.undo",
         "start": {
           "column": 8,
@@ -6885,7 +6898,7 @@
           "column": 3,
           "line": 29
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.redo",
         "start": {
           "column": 8,
@@ -6898,7 +6911,7 @@
           "column": 3,
           "line": 33
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.cut",
         "start": {
           "column": 7,
@@ -6911,7 +6924,7 @@
           "column": 3,
           "line": 37
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.copy",
         "start": {
           "column": 8,
@@ -6924,7 +6937,7 @@
           "column": 3,
           "line": 41
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.paste",
         "start": {
           "column": 9,
@@ -6937,7 +6950,7 @@
           "column": 3,
           "line": 45
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.pasteAndMatchStyle",
         "start": {
           "column": 22,
@@ -6950,7 +6963,7 @@
           "column": 3,
           "line": 49
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.delete",
         "start": {
           "column": 10,
@@ -6963,7 +6976,7 @@
           "column": 3,
           "line": 53
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.selectAll",
         "start": {
           "column": 13,
@@ -6976,7 +6989,7 @@
           "column": 3,
           "line": 57
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.findInPage",
         "start": {
           "column": 14,
@@ -6989,7 +7002,7 @@
           "column": 3,
           "line": 61
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.speech",
         "start": {
           "column": 10,
@@ -7002,7 +7015,7 @@
           "column": 3,
           "line": 65
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.startSpeaking",
         "start": {
           "column": 17,
@@ -7015,7 +7028,7 @@
           "column": 3,
           "line": 69
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.stopSpeaking",
         "start": {
           "column": 16,
@@ -7028,7 +7041,7 @@
           "column": 3,
           "line": 73
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.startDictation",
         "start": {
           "column": 18,
@@ -7041,7 +7054,7 @@
           "column": 3,
           "line": 77
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.edit.emojiSymbols",
         "start": {
           "column": 16,
@@ -7054,7 +7067,7 @@
           "column": 3,
           "line": 81
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.openQuickSwitch",
         "start": {
           "column": 19,
@@ -7067,7 +7080,7 @@
           "column": 3,
           "line": 85
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.back",
         "start": {
           "column": 8,
@@ -7080,7 +7093,7 @@
           "column": 3,
           "line": 89
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.forward",
         "start": {
           "column": 11,
@@ -7093,7 +7106,7 @@
           "column": 3,
           "line": 93
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.resetZoom",
         "start": {
           "column": 13,
@@ -7106,7 +7119,7 @@
           "column": 3,
           "line": 97
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.zoomIn",
         "start": {
           "column": 10,
@@ -7119,7 +7132,7 @@
           "column": 3,
           "line": 101
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.zoomOut",
         "start": {
           "column": 11,
@@ -7132,7 +7145,7 @@
           "column": 3,
           "line": 105
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.enterFullScreen",
         "start": {
           "column": 19,
@@ -7145,7 +7158,7 @@
           "column": 3,
           "line": 109
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.exitFullScreen",
         "start": {
           "column": 18,
@@ -7158,7 +7171,7 @@
           "column": 3,
           "line": 113
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.toggleFullScreen",
         "start": {
           "column": 20,
@@ -7171,7 +7184,7 @@
           "column": 3,
           "line": 117
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.toggleDarkMode",
         "start": {
           "column": 18,
@@ -7184,7 +7197,7 @@
           "column": 3,
           "line": 121
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.toggleDevTools",
         "start": {
           "column": 18,
@@ -7197,7 +7210,7 @@
           "column": 3,
           "line": 125
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.toggleTodosDevTools",
         "start": {
           "column": 23,
@@ -7210,7 +7223,7 @@
           "column": 3,
           "line": 129
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.toggleServiceDevTools",
         "start": {
           "column": 25,
@@ -7223,7 +7236,7 @@
           "column": 3,
           "line": 133
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.reloadService",
         "start": {
           "column": 17,
@@ -7236,7 +7249,7 @@
           "column": 3,
           "line": 137
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.reloadFranz",
         "start": {
           "column": 15,
@@ -7249,7 +7262,7 @@
           "column": 3,
           "line": 141
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view.lockFerdi",
         "start": {
           "column": 13,
@@ -7262,7 +7275,7 @@
           "column": 3,
           "line": 145
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.window.minimize",
         "start": {
           "column": 12,
@@ -7275,7 +7288,7 @@
           "column": 3,
           "line": 149
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.window.close",
         "start": {
           "column": 9,
@@ -7288,7 +7301,7 @@
           "column": 3,
           "line": 153
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.learnMore",
         "start": {
           "column": 13,
@@ -7301,7 +7314,7 @@
           "column": 3,
           "line": 157
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.changelog",
         "start": {
           "column": 13,
@@ -7314,7 +7327,7 @@
           "column": 3,
           "line": 161
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.support",
         "start": {
           "column": 11,
@@ -7327,7 +7340,7 @@
           "column": 3,
           "line": 165
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.debugInfo",
         "start": {
           "column": 13,
@@ -7340,7 +7353,7 @@
           "column": 3,
           "line": 169
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.publishDebugInfo",
         "start": {
           "column": 20,
@@ -7353,7 +7366,7 @@
           "column": 3,
           "line": 173
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.debugInfoCopiedHeadline",
         "start": {
           "column": 27,
@@ -7366,7 +7379,7 @@
           "column": 3,
           "line": 177
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.debugInfoCopiedBody",
         "start": {
           "column": 23,
@@ -7379,7 +7392,7 @@
           "column": 3,
           "line": 181
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "locked.touchId",
         "start": {
           "column": 11,
@@ -7392,7 +7405,7 @@
           "column": 3,
           "line": 185
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "locked.touchIdPrompt",
         "start": {
           "column": 17,
@@ -7405,7 +7418,7 @@
           "column": 3,
           "line": 189
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.tos",
         "start": {
           "column": 7,
@@ -7418,7 +7431,7 @@
           "column": 3,
           "line": 193
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help.privacy",
         "start": {
           "column": 11,
@@ -7431,7 +7444,7 @@
           "column": 3,
           "line": 197
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.file",
         "start": {
           "column": 8,
@@ -7444,7 +7457,7 @@
           "column": 3,
           "line": 201
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.view",
         "start": {
           "column": 8,
@@ -7457,7 +7470,7 @@
           "column": 3,
           "line": 205
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.services",
         "start": {
           "column": 12,
@@ -7470,7 +7483,7 @@
           "column": 3,
           "line": 209
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.window",
         "start": {
           "column": 10,
@@ -7483,7 +7496,7 @@
           "column": 3,
           "line": 213
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.help",
         "start": {
           "column": 8,
@@ -7496,7 +7509,7 @@
           "column": 3,
           "line": 217
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.about",
         "start": {
           "column": 9,
@@ -7509,7 +7522,7 @@
           "column": 3,
           "line": 221
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.announcement",
         "start": {
           "column": 16,
@@ -7522,7 +7535,7 @@
           "column": 3,
           "line": 225
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.settings",
         "start": {
           "column": 12,
@@ -7535,7 +7548,7 @@
           "column": 3,
           "line": 229
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.checkForUpdates",
         "start": {
           "column": 19,
@@ -7548,7 +7561,7 @@
           "column": 3,
           "line": 233
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.hide",
         "start": {
           "column": 8,
@@ -7561,7 +7574,7 @@
           "column": 3,
           "line": 237
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.hideOthers",
         "start": {
           "column": 14,
@@ -7574,7 +7587,7 @@
           "column": 3,
           "line": 241
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.unhide",
         "start": {
           "column": 10,
@@ -7587,7 +7600,7 @@
           "column": 3,
           "line": 245
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.autohideMenuBar",
         "start": {
           "column": 19,
@@ -7600,7 +7613,7 @@
           "column": 3,
           "line": 249
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.app.quit",
         "start": {
           "column": 8,
@@ -7613,7 +7626,7 @@
           "column": 3,
           "line": 253
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.services.addNewService",
         "start": {
           "column": 17,
@@ -7626,7 +7639,7 @@
           "column": 3,
           "line": 257
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.workspaces.addNewWorkspace",
         "start": {
           "column": 19,
@@ -7639,7 +7652,7 @@
           "column": 3,
           "line": 261
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.workspaces.openWorkspaceDrawer",
         "start": {
           "column": 23,
@@ -7652,7 +7665,7 @@
           "column": 3,
           "line": 265
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.workspaces.closeWorkspaceDrawer",
         "start": {
           "column": 24,
@@ -7665,7 +7678,7 @@
           "column": 3,
           "line": 269
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.services.setNextServiceActive",
         "start": {
           "column": 23,
@@ -7678,7 +7691,7 @@
           "column": 3,
           "line": 273
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.services.activatePreviousService",
         "start": {
           "column": 27,
@@ -7691,7 +7704,7 @@
           "column": 3,
           "line": 277
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "sidebar.muteApp",
         "start": {
           "column": 11,
@@ -7704,7 +7717,7 @@
           "column": 3,
           "line": 281
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "sidebar.unmuteApp",
         "start": {
           "column": 13,
@@ -7717,7 +7730,7 @@
           "column": 3,
           "line": 285
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.workspaces",
         "start": {
           "column": 14,
@@ -7730,7 +7743,7 @@
           "column": 3,
           "line": 289
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.workspaces.defaultWorkspace",
         "start": {
           "column": 20,
@@ -7743,7 +7756,7 @@
           "column": 3,
           "line": 293
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.todos",
         "start": {
           "column": 9,
@@ -7756,7 +7769,7 @@
           "column": 3,
           "line": 297
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.Todoss.openTodosDrawer",
         "start": {
           "column": 19,
@@ -7769,7 +7782,7 @@
           "column": 3,
           "line": 301
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.Todoss.closeTodosDrawer",
         "start": {
           "column": 20,
@@ -7782,7 +7795,7 @@
           "column": 3,
           "line": 305
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.todos.enableTodos",
         "start": {
           "column": 15,
@@ -7795,7 +7808,7 @@
           "column": 3,
           "line": 309
         },
-        "file": "src/lib/Menu.js",
+        "file": "src\\lib\\Menu.js",
         "id": "menu.services.goHome",
         "start": {
           "column": 17,
