@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { defineMessages, intlShape } from 'react-intl';
-import { Badge } from '@meetfranz/ui';
 import Form from '../../lib/Form';
 import Input from '../ui/Input';
 import Select from '../ui/Select';
 import Button from '../ui/Button';
+import Infobox from '../ui/Infobox';
+import {url,required} from '../../helpers/validation-helpers';
 
 const messages = defineMessages({
   headline: {
@@ -19,11 +20,15 @@ const messages = defineMessages({
   },
   warning: {
     id: 'changeserver.warning',
-    defaultMessage: '!!!Some settings offered by Ferdi will not be saved',
+    defaultMessage: '!!!Extra settings offered by Ferdi will not be saved',
   },
   customServerLabel: {
     id: 'changeserver.customServerLabel',
     defaultMessage: '!!!Custom server',
+  },
+  urlError: {
+    id: 'changeserver.urlError',
+    defaultMessage: '!!!Enter a valid URL',
   },
   submit: {
     id: 'changeserver.submit',
@@ -58,6 +63,7 @@ export default @observer class ChangeServer extends Component {
       customServer: {
         label: this.context.intl.formatMessage(messages.customServerLabel),
         value: '',
+        validators:[url,required],
       },
     },
   }, this.context.intl);
@@ -71,29 +77,20 @@ export default @observer class ChangeServer extends Component {
     }
   }
 
-  isUrl(value) {
-    try {
-      const url = new URL(value);
-      console.log(url);
-      return true;
-    } catch (err) {
-      return false;
-    }
-  }
-
   submit(e) {
     e.preventDefault();
     this.form.submit({
       onSuccess: (form) => {
-        if (form.values().server === '') {
+        if (!this.defaultServers.includes(form.values().server)) {
           form.$('server').onChange(form.values().customServer);
-          if (!this.isUrl(form.values().customServer)) {
-            console.log('Not url');
-          }
         }
         this.props.onSubmit(form.values());
       },
-      onError: () => { },
+      onError: (form) => { 
+        if(this.defaultServers.includes(form.values().server)){
+          this.props.onSubmit(form.values());
+        }
+      },
     });
   }
 
@@ -104,22 +101,21 @@ export default @observer class ChangeServer extends Component {
       <div className="auth__container">
         <form className="franz-form auth__form" onSubmit={e => this.submit(e)}>
           <h1>{intl.formatMessage(messages.headline)}</h1>
+          {form.$('server').value === this.franzServer
+          && (
+            <Infobox type="warning">
+              {intl.formatMessage(messages.warning)}
+            </Infobox>
+          )}
           <Select field={form.$('server')} />
           {!this.defaultServers.includes(form.$('server').value)
           && (
-          <Input
-            placeholder="Custom Server"
-            onChange={e => this.submit(e)}
-            field={form.$('customServer')}
-          />
+            <Input
+              placeholder="Custom Server"
+              onChange={e => this.submit(e)}
+              field={form.$('customServer')}
+            />
           )}
-          {form.$('server').value === this.franzServer
-          && (
-          <Badge type="warning">
-            {intl.formatMessage(messages.warning)}
-          </Badge>
-          )}
-
           <Button
             type="submit"
             className="auth__button"

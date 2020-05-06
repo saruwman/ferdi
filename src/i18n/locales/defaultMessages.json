@@ -49,65 +49,78 @@
         "defaultMessage": "!!!Change server",
         "end": {
           "column": 3,
-          "line": 15
+          "line": 16
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.headline",
         "start": {
           "column": 12,
-          "line": 12
+          "line": 13
         }
       },
       {
         "defaultMessage": "!!!Server",
         "end": {
           "column": 3,
-          "line": 19
+          "line": 20
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.label",
         "start": {
           "column": 9,
-          "line": 16
+          "line": 17
         }
       },
       {
-        "defaultMessage": "!!!Some settings offered by Ferdi will not be saved",
+        "defaultMessage": "!!!Extra settings offered by Ferdi will not be saved",
         "end": {
           "column": 3,
-          "line": 23
+          "line": 24
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.warning",
         "start": {
           "column": 11,
-          "line": 20
+          "line": 21
         }
       },
       {
         "defaultMessage": "!!!Custom server",
         "end": {
           "column": 3,
-          "line": 27
+          "line": 28
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.customServerLabel",
         "start": {
-          "column": 20,
-          "line": 24
+          "column": 21,
+          "line": 25
+        }
+      },
+      {
+        "defaultMessage": "!!!Enter a valid URL",
+        "end": {
+          "column": 3,
+          "line": 32
+        },
+        "file": "src\\components\\auth\\ChangeServer.js",
+        "id": "changeserver.urlError",
+        "start": {
+          "column": 12,
+          "line": 29
         }
       },
       {
         "defaultMessage": "!!!Submit",
         "end": {
           "column": 3,
-          "line": 31
+          "line": 36
         },
         "file": "src\\components\\auth\\ChangeServer.js",
         "id": "changeserver.submit",
         "start": {
           "column": 10,
-          "line": 28
+          "line": 33
         }
       }
     ],
