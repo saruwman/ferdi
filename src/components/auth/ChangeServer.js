@@ -7,7 +7,7 @@ import Input from '../ui/Input';
 import Select from '../ui/Select';
 import Button from '../ui/Button';
 import Infobox from '../ui/Infobox';
-import {url,required} from '../../helpers/validation-helpers';
+import { url, required } from '../../helpers/validation-helpers';
 
 const messages = defineMessages({
   headline: {
@@ -63,7 +63,7 @@ export default @observer class ChangeServer extends Component {
       customServer: {
         label: this.context.intl.formatMessage(messages.customServerLabel),
         value: '',
-        validators:[url,required],
+        validators: [url, required],
       },
     },
   }, this.context.intl);
@@ -86,8 +86,8 @@ export default @observer class ChangeServer extends Component {
         }
         this.props.onSubmit(form.values());
       },
-      onError: (form) => { 
-        if(this.defaultServers.includes(form.values().server)){
+      onError: (form) => {
+        if (this.defaultServers.includes(form.values().server)) {
           this.props.onSubmit(form.values());
         }
       },
