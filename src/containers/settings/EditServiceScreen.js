@@ -131,7 +131,7 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
     }
   }
 
-  prepareForm(recipe, service) {
+  prepareForm(recipe, service, proxy) {
     const {
       intl,
     } = this.context;
@@ -269,6 +269,46 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
         },
       });
     }
+
+    if (proxy.isEnabled) {
+      const serviceProxyConfig = stores.settings.proxy[service.id] || {};
+
+      Object.assign(config.fields, {
+        proxy: {
+          name: 'proxy',
+          label: 'proxy',
+          fields: {
+            isEnabled: {
+              label: intl.formatMessage(messages.enableProxy),
+              value: serviceProxyConfig.isEnabled,
+              default: false,
+            },
+            host: {
+              label: intl.formatMessage(messages.proxyHost),
+              value: serviceProxyConfig.host,
+              default: '',
+            },
+            port: {
+              label: intl.formatMessage(messages.proxyPort),
+              value: serviceProxyConfig.port,
+              default: '',
+            },
+            user: {
+              label: intl.formatMessage(messages.proxyUser),
+              value: serviceProxyConfig.user,
+              default: '',
+            },
+            password: {
+              label: intl.formatMessage(messages.proxyPassword),
+              value: serviceProxyConfig.password,
+              default: '',
+              type: 'password',
+            },
+          },
+        },
+      });
+    }
+
     return new Form(config);
   }
 
@@ -299,7 +339,6 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
   }
 
   render() {
-    const { stores } = this.props;
     const {
       recipes, services, user, settings,
     } = this.props.stores;
@@ -337,7 +376,7 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
       );
     }
 
-    const form = this.prepareForm(recipe, service);
+    const form = this.prepareForm(recipe, service, proxyFeature);
 
     return (
       <ErrorBoundary>
@@ -354,7 +393,6 @@ export default @inject('stores', 'actions') @observer class EditServiceScreen ex
           onDelete={() => this.deleteService()}
           openRecipeFile={file => this.openRecipeFile(file)}
           isProxyFeatureEnabled={proxyFeature.isEnabled}
-          serviceProxyConfig={stores.settings.proxy[service.id] || {}}
           isServiceProxyIncludedInCurrentPlan={proxyFeature.isIncludedInCurrentPlan}
           isSpellcheckerIncludedInCurrentPlan={spellcheckerFeature.isIncludedInCurrentPlan}
           isHibernationFeatureActive={settings.app.hibernate}

@@ -156,7 +156,6 @@ export default @observer class EditServiceForm extends Component {
     isSaving: PropTypes.bool.isRequired,
     isDeleting: PropTypes.bool.isRequired,
     isProxyFeatureEnabled: PropTypes.bool.isRequired,
-    serviceProxyConfig: PropTypes.object.isRequired,
     isServiceProxyIncludedInCurrentPlan: PropTypes.bool.isRequired,
     isSpellcheckerIncludedInCurrentPlan: PropTypes.bool.isRequired,
     isHibernationFeatureActive: PropTypes.bool.isRequired,
@@ -182,7 +181,7 @@ export default @observer class EditServiceForm extends Component {
       onSuccess: async (form) => {
         const values = form.values();
         let isValid = true;
-
+        console.log('values:', values);
         const { files } = form.$('customIcon');
         if (files) {
           values.iconFile = files[0];
@@ -211,6 +210,7 @@ export default @observer class EditServiceForm extends Component {
     });
   }
 
+
   render() {
     const {
       recipe,
@@ -226,7 +226,6 @@ export default @observer class EditServiceForm extends Component {
       isServiceProxyIncludedInCurrentPlan,
       isSpellcheckerIncludedInCurrentPlan,
       isHibernationFeatureActive,
-      serviceProxyConfig,
     } = this.props;
     const { intl } = this.context;
 
@@ -414,8 +413,7 @@ export default @observer class EditServiceForm extends Component {
 
             {isProxyFeatureEnabled && (
               <ProxySettings
-                proxySettings={serviceProxyConfig}
-                isProxyFeatureEnabled={isProxyFeatureEnabled}
+                form={form}
                 isServiceProxyIncludedInCurrentPlan={isServiceProxyIncludedInCurrentPlan}
               />
             )}

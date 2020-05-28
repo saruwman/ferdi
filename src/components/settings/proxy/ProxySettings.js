@@ -45,52 +45,14 @@ const messages = defineMessages({
 
 export default @observer class ProxySettings extends Component {
   static propTypes = {
-    // isProxyFeatureEnabled: PropTypes.bool.isRequired,
+    form: PropTypes.instanceOf(Form).isRequired,
     isServiceProxyIncludedInCurrentPlan: PropTypes.bool.isRequired,
-    proxySettings: PropTypes.object.isRequired,
-
   };
 
   static contextTypes = {
     intl: intlShape,
   };
 
-  form = new Form({
-    fields: {
-      proxy: {
-        name: 'proxy',
-        label: 'proxy',
-        fields: {
-          isEnabled: {
-            label: this.context.intl.formatMessage(messages.enableProxy),
-            value: this.props.proxySettings.isEnabled,
-            default: false,
-          },
-          host: {
-            label: this.context.intl.formatMessage(messages.proxyHost),
-            value: this.props.proxySettings.host,
-            default: '',
-          },
-          port: {
-            label: this.context.intl.formatMessage(messages.proxyPort),
-            value: this.props.proxySettings.port,
-            default: '',
-          },
-          user: {
-            label: this.context.intl.formatMessage(messages.proxyUser),
-            value: this.props.proxySettings.user,
-            default: '',
-          },
-          password: {
-            label: this.context.intl.formatMessage(messages.proxyPassword),
-            value: this.props.proxySettings.password,
-            default: '',
-            type: 'password',
-          },
-        },
-      },
-    },
-  }, this.context.intl);
 
   componentDidMount() {
 
@@ -98,8 +60,7 @@ export default @observer class ProxySettings extends Component {
 
 
   render() {
-    console.log('this was renderd');
-    const { form } = this;
+    const { form } = this.props;
     const { intl } = this.context;
     const { isServiceProxyIncludedInCurrentPlan } = this.props;
     return (
