@@ -132,7 +132,17 @@ export const DEFAULT_APP_SETTINGS = {
   sentry: false,
   navigationBarBehaviour: 'custom',
 };
-
+export const DEFAULT_PROXY_SETTINGS = {
+  isEnabled: false,
+  host: '',
+  port: '',
+  user: '',
+  password: '',
+};
+export const DEFAULT_PROXY_FEATURES_CONFIG = {
+  isProxyFeatureEnabled: true,
+  isProxyFeatureIncludedInCurrentPlan: true,
+};
 export const DEFAULT_FEATURES_CONFIG = {
   isSpellcheckerIncludedInCurrentPlan: true,
   needToWaitToProceed: false,
