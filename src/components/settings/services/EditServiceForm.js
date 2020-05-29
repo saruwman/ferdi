@@ -181,7 +181,6 @@ export default @observer class EditServiceForm extends Component {
       onSuccess: async (form) => {
         const values = form.values();
         let isValid = true;
-        console.log('values:', values);
         const { files } = form.$('customIcon');
         if (files) {
           values.iconFile = files[0];
@@ -230,7 +229,6 @@ export default @observer class EditServiceForm extends Component {
     const { intl } = this.context;
 
     const { isValidatingCustomUrl } = this.state;
-
     const deleteButton = isDeleting ? (
       <Button
         label={intl.formatMessage(messages.deleteService)}
@@ -414,7 +412,7 @@ export default @observer class EditServiceForm extends Component {
             {isProxyFeatureEnabled && (
               <ProxySettings
                 form={form}
-                isServiceProxyIncludedInCurrentPlan={isServiceProxyIncludedInCurrentPlan}
+                isProxyFeatureIncludedInCurrentPlan={isServiceProxyIncludedInCurrentPlan}
               />
             )}
           </form>
